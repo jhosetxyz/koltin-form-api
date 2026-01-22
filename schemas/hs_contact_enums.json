@@ -1,0 +1,6369 @@
+{
+  "enums": [
+    {
+      "name": "agendocalendario",
+      "label": "agendocalendario",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Sí",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "asignar_lead_a",
+      "label": "Asignar lead a:",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "automatizaciones",
+      "label": "Automatizaciones",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Frenar plantillas",
+          "value": "Frenar plantillas"
+        },
+        {
+          "label": "{AUT}Cotizacion enviada sin llamada",
+          "value": "Cotizacion enviada sin llamada"
+        },
+        {
+          "label": "{AUT}Retomar contacto",
+          "value": "Retomar contacto"
+        },
+        {
+          "label": "{AUT}Revivir interés",
+          "value": "Revivir interés"
+        },
+        {
+          "label": "{AUT}Llamada a ficha",
+          "value": "{AUT} Llamada a ficha"
+        },
+        {
+          "label": "{AUT}Seguimiento informe medico",
+          "value": "Seguimiento informe medico"
+        },
+        {
+          "label": "{AUT}Seguimiento antigüedad",
+          "value": "Seguimiento antiguedad"
+        },
+        {
+          "label": "{AUT}Promesa de pago",
+          "value": "Promesa de pago"
+        },
+        {
+          "label": "{AUT}Seguimiento si somos opción",
+          "value": "{AUT}Seguimiento si somos opcion"
+        },
+        {
+          "label": "Automatización completa",
+          "value": "Automatización completa"
+        }
+      ]
+    },
+    {
+      "name": "beneficio_de_interes",
+      "label": "¿Qué beneficio te interesa más?\"",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Cobertura de seguro",
+          "value": "insurance"
+        },
+        {
+          "label": "Salud preventiva",
+          "value": "preventive health"
+        },
+        {
+          "label": "Comunidad",
+          "value": "community"
+        }
+      ]
+    },
+    {
+      "name": "canal_auxiliar",
+      "label": "canal auxiliar",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "BBVA",
+          "value": "BBVA"
+        },
+        {
+          "label": "PWC",
+          "value": "PWC"
+        },
+        {
+          "label": "BBVA Continuidad",
+          "value": "BBVA Continuidad"
+        },
+        {
+          "label": "Soy+",
+          "value": "Soy+"
+        },
+        {
+          "label": "Agentes Online",
+          "value": "Agentes Online"
+        },
+        {
+          "label": "Marsh",
+          "value": "Marsh"
+        },
+        {
+          "label": "Murgía",
+          "value": "Murgía"
+        },
+        {
+          "label": "Banqueros BBVA",
+          "value": "Banqueros BBVA"
+        },
+        {
+          "label": "KOLTIN",
+          "value": "KOLTIN"
+        },
+        {
+          "label": "SOCIOS",
+          "value": "SOCIOS"
+        }
+      ]
+    },
+    {
+      "name": "capi_axeptio_marketing_consent",
+      "label": "capi_axeptio_marketing_consent",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Sí",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "clinica_de_preferencia",
+      "label": "clínica de preferencia",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Santa Fe",
+          "value": "Santa Fe"
+        },
+        {
+          "label": "Monterrey",
+          "value": "Monterrey"
+        },
+        {
+          "label": "Roma Durango",
+          "value": "Roma Durango"
+        }
+      ]
+    },
+    {
+      "name": "contact_preference__form",
+      "label": "¿Por donde quieres que nos contactemos?",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Llamada",
+          "value": "Llamada"
+        },
+        {
+          "label": "Whatsapp",
+          "value": "Whatsapp"
+        }
+      ]
+    },
+    {
+      "name": "cual_es_es_la_edad_del_segundo_cotizando_",
+      "label": "¿Cuál es es la edad del segundo cotizando?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "0 a 19 años",
+          "value": "0 - 19"
+        },
+        {
+          "label": "20 a 24 años",
+          "value": "20 - 24"
+        },
+        {
+          "label": "25 a 29 años",
+          "value": "25 - 29"
+        },
+        {
+          "label": "30 a 34 años",
+          "value": "30 - 34"
+        },
+        {
+          "label": "35 a 39 años",
+          "value": "35 - 39"
+        },
+        {
+          "label": "40 a 44 años",
+          "value": "40 - 44"
+        },
+        {
+          "label": "45 a 49 años",
+          "value": "45 - 49"
+        },
+        {
+          "label": "50 a 54 años",
+          "value": "50 - 54"
+        },
+        {
+          "label": "55 a 59 años",
+          "value": "55 - 59"
+        },
+        {
+          "label": "60 a 64 años",
+          "value": "60 - 64"
+        },
+        {
+          "label": "65 a 69 años",
+          "value": "65 - 69"
+        },
+        {
+          "label": "70 a 74 años",
+          "value": "70 - 74"
+        },
+        {
+          "label": "75 a 79 años",
+          "value": "75 - 79"
+        },
+        {
+          "label": "80 a 84 años",
+          "value": "80 - 84"
+        }
+      ]
+    },
+    {
+      "name": "cual_es_tu_edad__form",
+      "label": "¿Cuál es tu edad?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "0 a 19 años",
+          "value": "0 - 19"
+        },
+        {
+          "label": "20 a 24 años",
+          "value": "20 - 24"
+        },
+        {
+          "label": "25 a 29 años",
+          "value": "25 - 29"
+        },
+        {
+          "label": "30 a 34 años",
+          "value": "30 - 34"
+        },
+        {
+          "label": "35 a 39 años",
+          "value": "35 - 39"
+        },
+        {
+          "label": "40 a 44 años",
+          "value": "40 - 44"
+        },
+        {
+          "label": "45 a 49 años",
+          "value": "45 - 49"
+        },
+        {
+          "label": "50 a 54 años",
+          "value": "50 - 54"
+        },
+        {
+          "label": "55 a 59 años",
+          "value": "55 - 59"
+        },
+        {
+          "label": "60 a 64 años",
+          "value": "60 - 64"
+        },
+        {
+          "label": "65 a 69 años",
+          "value": "65 - 69"
+        },
+        {
+          "label": "70 a 74 años",
+          "value": "70 - 74"
+        },
+        {
+          "label": "75 a 79 años",
+          "value": "75 - 79"
+        },
+        {
+          "label": "80 a 84 años",
+          "value": "80 - 84"
+        }
+      ]
+    },
+    {
+      "name": "currentlyinworkflow",
+      "label": "Currently in workflow (discontinued)",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "True",
+          "value": "true"
+        },
+        {
+          "label": "False",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "estado_de_chat",
+      "label": "Estado de contacto",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Conectado",
+          "value": "Conectado"
+        },
+        {
+          "label": "Interés medio",
+          "value": "Interés medio"
+        },
+        {
+          "label": "Interés alto",
+          "value": "Interés alto"
+        },
+        {
+          "label": "Primer intento de llamada",
+          "value": "Primer intento de llamada"
+        },
+        {
+          "label": "Segundo intento de llamada",
+          "value": "Segundo intento de llamada"
+        },
+        {
+          "label": "Tercer intento de llamada",
+          "value": "Tercer intento de llamada"
+        },
+        {
+          "label": "Buscar en el futuro",
+          "value": "Buscar en el futuro"
+        },
+        {
+          "label": "Perdido -Sin contacto exitoso",
+          "value": "Perdido - sin contacto exitoso"
+        },
+        {
+          "label": "No aceptado-informe medico",
+          "value": "No aceptado-informe medico"
+        },
+        {
+          "label": "Supera la edad asegurable",
+          "value": "\"supera la edad asegurable\""
+        },
+        {
+          "label": "No asiste a cita presencial",
+          "value": "No asiste a cita presencial"
+        },
+        {
+          "label": "No contesta llamada agendada",
+          "value": "No contesta llamada agendada"
+        },
+        {
+          "label": "No interesado-Suma asegurada baja",
+          "value": "No interesado-Suma asegurada baja"
+        },
+        {
+          "label": "No interesado-Competencia",
+          "value": "No interesado- Competencia"
+        },
+        {
+          "label": "No interesado-Preexistencias",
+          "value": "No interesado-Preexistencias"
+        },
+        {
+          "label": "No interesado-Desconfianza",
+          "value": "No interesado-Desconfianza"
+        },
+        {
+          "label": "No interesado-Presupuesto",
+          "value": "No interesado-presupuesto"
+        },
+        {
+          "label": "No interesado-Póliza colectiva",
+          "value": "No interesado-Póliza colectiva"
+        },
+        {
+          "label": "No interesado-No es el producto que buscaba",
+          "value": "No interesado-No es el producto que buscaba"
+        },
+        {
+          "label": "No interesado- sin cobertura/ hospitales en en su localidad",
+          "value": "No interesado-Sin cobertura"
+        },
+        {
+          "label": "Cliente",
+          "value": "Cliente"
+        }
+      ]
+    },
+    {
+      "name": "has_health_insurance__form",
+      "label": "¿Tienes actualmente un seguro de gastos médicos mayores?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Si",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "name": "how_many_quotes",
+      "label": "¿Para cuantos estas cotizando?",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3-5",
+          "value": "3-5"
+        },
+        {
+          "label": "6-10",
+          "value": "6-10"
+        },
+        {
+          "label": "11-25",
+          "value": "11-25"
+        },
+        {
+          "label": "26-50",
+          "value": "26-50"
+        },
+        {
+          "label": "51 o más",
+          "value": "51 o más"
+        }
+      ]
+    },
+    {
+      "name": "hs_additional_emails",
+      "label": "Additional email addresses",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_all_accessible_team_ids",
+      "label": "All teams",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_all_assigned_business_unit_ids",
+      "label": "Brands",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_all_contact_vids",
+      "label": "All vids for a contact",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_all_owner_ids",
+      "label": "All owner IDs",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_all_team_ids",
+      "label": "All team IDs",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_analytics_source",
+      "label": "Original Traffic Source",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Organic Search",
+          "value": "ORGANIC_SEARCH"
+        },
+        {
+          "label": "Paid Search",
+          "value": "PAID_SEARCH"
+        },
+        {
+          "label": "Email Marketing",
+          "value": "EMAIL_MARKETING"
+        },
+        {
+          "label": "Organic Social",
+          "value": "SOCIAL_MEDIA"
+        },
+        {
+          "label": "Referrals",
+          "value": "REFERRALS"
+        },
+        {
+          "label": "Other Campaigns",
+          "value": "OTHER_CAMPAIGNS"
+        },
+        {
+          "label": "Direct Traffic",
+          "value": "DIRECT_TRAFFIC"
+        },
+        {
+          "label": "Offline Sources",
+          "value": "OFFLINE"
+        },
+        {
+          "label": "Paid Social",
+          "value": "PAID_SOCIAL"
+        },
+        {
+          "label": "AI Referrals",
+          "value": "AI_REFERRALS"
+        }
+      ]
+    },
+    {
+      "name": "hs_buying_role",
+      "label": "Buying Role",
+      "fieldType": "checkbox",
+      "options": [
+        {
+          "label": "Blocker",
+          "value": "BLOCKER"
+        },
+        {
+          "label": "Budget Holder",
+          "value": "BUDGET_HOLDER"
+        },
+        {
+          "label": "Champion",
+          "value": "CHAMPION"
+        },
+        {
+          "label": "Decision Maker",
+          "value": "DECISION_MAKER"
+        },
+        {
+          "label": "End User",
+          "value": "END_USER"
+        },
+        {
+          "label": "Executive Sponsor",
+          "value": "EXECUTIVE_SPONSOR"
+        },
+        {
+          "label": "Influencer",
+          "value": "INFLUENCER"
+        },
+        {
+          "label": "Legal & Compliance",
+          "value": "LEGAL_AND_COMPLIANCE"
+        },
+        {
+          "label": "Other",
+          "value": "OTHER"
+        }
+      ]
+    },
+    {
+      "name": "hs_calculated_form_submissions",
+      "label": "The 800 most recent form submissions for a contact",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_calculated_merged_vids",
+      "label": "Merged vids with timestamps of a contact",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_clicked_linkedin_ad",
+      "label": "Clicked on a LinkedIn Ad",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "hs_content_membership_status",
+      "label": "Status",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Active",
+          "value": "active"
+        },
+        {
+          "label": "Inactive",
+          "value": "inactive"
+        }
+      ]
+    },
+    {
+      "name": "hs_customer_agent_lead_status",
+      "label": "Customer Agent Lead Status",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Qualified",
+          "value": "qualified"
+        },
+        {
+          "label": "Partially Qualified",
+          "value": "partially_qualified"
+        },
+        {
+          "label": "Not Qualified",
+          "value": "not_qualified"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_customer_quarantined_reason",
+      "label": "Email address quarantine reason",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Suspension Remediation",
+          "value": "SUSPENSION_REMEDIATION"
+        },
+        {
+          "label": "Blocklist Remediation",
+          "value": "BLOCKLIST_REMEDIATION"
+        },
+        {
+          "label": "Trust & Safety Remediation",
+          "value": "TRUST_SAFETY_REMEDIATION"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_hard_bounce_reason_enum",
+      "label": "Email hard bounce reason",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Content",
+          "value": "CONTENT"
+        },
+        {
+          "label": "Mailbox full",
+          "value": "MAILBOX_FULL"
+        },
+        {
+          "label": "Other",
+          "value": "OTHER"
+        },
+        {
+          "label": "Policy",
+          "value": "POLICY"
+        },
+        {
+          "label": "Spam",
+          "value": "SPAM"
+        },
+        {
+          "label": "Unknown user",
+          "value": "UNKNOWN_USER"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_optout_1103396234",
+      "label": "Opted out of email: Membership Service Notifications",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_optout_397822117",
+      "label": "Opted out of email: One to One",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_optout_397822120",
+      "label": "Opted out of email: Marketing Information",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_optout_399015638",
+      "label": "Opted out of email: Customer Service Communication",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "hs_email_quarantined_reason",
+      "label": "Email address automated quarantine reason",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Suspicious List Import",
+          "value": "ON_LIST_IMPORT"
+        },
+        {
+          "label": "High Hard Bounce Rate",
+          "value": "HIGH_HARD_BOUNCE_RATE"
+        },
+        {
+          "label": "Multiple Cancelled Campaigns",
+          "value": "MULTIPLE_CANCELLED_CAMPAIGNS"
+        },
+        {
+          "label": "Suspicious Form Activity",
+          "value": "FORM_ABUSE"
+        },
+        {
+          "label": "Recipient Complaint",
+          "value": "RECIPIENT_COMPLAINT"
+        },
+        {
+          "label": "Suspension Remediation",
+          "value": "SUSPENSION_REMEDIATION"
+        },
+        {
+          "label": "Blocklist Remediation",
+          "value": "BLOCKLIST_REMEDIATION"
+        },
+        {
+          "label": "Trust & Safety Remediation",
+          "value": "TRUST_SAFETY_REMEDIATION"
+        },
+        {
+          "label": "Other",
+          "value": "OTHER"
+        },
+        {
+          "label": "Undeliverable Email Address",
+          "value": "UNDELIVERABLE_ADDRESS"
+        },
+        {
+          "label": "Microsoft Undeliverable - Microsoft reports that address is inactive",
+          "value": "MICROSOFT_UNDELIVERABLE"
+        }
+      ]
+    },
+    {
+      "name": "hs_emailconfirmationstatus",
+      "label": "Marketing email confirmation status",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Confirmed",
+          "value": "Confirmed"
+        },
+        {
+          "label": "Confirmation Pending",
+          "value": "Confirmation Pending"
+        },
+        {
+          "label": "Confirmation Email Sent",
+          "value": "Confirmation Email Sent"
+        },
+        {
+          "label": "User clicked confirmation",
+          "value": "User clicked confirmation"
+        },
+        {
+          "label": "HubSpot Rep. marked confirmed",
+          "value": "HubSpot Rep. marked confirmed"
+        },
+        {
+          "label": "Customer marked confirmed",
+          "value": "Customer marked confirmed"
+        },
+        {
+          "label": "Confirmed from previous behavior",
+          "value": "Confirmed from previous behavior"
+        },
+        {
+          "label": "Confirmed due to form",
+          "value": "Confirmed due to form"
+        }
+      ]
+    },
+    {
+      "name": "hs_feedback_last_nps_rating",
+      "label": "Last NPS survey rating (deprecated)",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9",
+          "value": "9"
+        },
+        {
+          "label": "10",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "name": "hs_inferred_language_codes",
+      "label": "Inferred Language Codes",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Abkhazian",
+          "value": "ab"
+        },
+        {
+          "label": "Afar",
+          "value": "aa"
+        },
+        {
+          "label": "Afrikaans",
+          "value": "af"
+        },
+        {
+          "label": "Akan",
+          "value": "ak"
+        },
+        {
+          "label": "Albanian",
+          "value": "sq"
+        },
+        {
+          "label": "Amharic",
+          "value": "am"
+        },
+        {
+          "label": "Arabic",
+          "value": "ar"
+        },
+        {
+          "label": "Aragonese",
+          "value": "an"
+        },
+        {
+          "label": "Armenian",
+          "value": "hy"
+        },
+        {
+          "label": "Assamese",
+          "value": "as"
+        },
+        {
+          "label": "Avaric",
+          "value": "av"
+        },
+        {
+          "label": "Avestan",
+          "value": "ae"
+        },
+        {
+          "label": "Aymara",
+          "value": "ay"
+        },
+        {
+          "label": "Azerbaijani",
+          "value": "az"
+        },
+        {
+          "label": "Bambara",
+          "value": "bm"
+        },
+        {
+          "label": "Bashkir",
+          "value": "ba"
+        },
+        {
+          "label": "Basque",
+          "value": "eu"
+        },
+        {
+          "label": "Belarusian",
+          "value": "be"
+        },
+        {
+          "label": "Bengali",
+          "value": "bn"
+        },
+        {
+          "label": "Bislama",
+          "value": "bi"
+        },
+        {
+          "label": "Bokmål, Norwegian; Norwegian Bokmål",
+          "value": "nb"
+        },
+        {
+          "label": "Bosnian",
+          "value": "bs"
+        },
+        {
+          "label": "Breton",
+          "value": "br"
+        },
+        {
+          "label": "Bulgarian",
+          "value": "bg"
+        },
+        {
+          "label": "Burmese",
+          "value": "my"
+        },
+        {
+          "label": "Catalan; Valencian",
+          "value": "ca"
+        },
+        {
+          "label": "Central Khmer",
+          "value": "km"
+        },
+        {
+          "label": "Chamorro",
+          "value": "ch"
+        },
+        {
+          "label": "Chechen",
+          "value": "ce"
+        },
+        {
+          "label": "Chichewa; Chewa; Nyanja",
+          "value": "ny"
+        },
+        {
+          "label": "Chinese",
+          "value": "zh"
+        },
+        {
+          "label": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic",
+          "value": "cu"
+        },
+        {
+          "label": "Chuvash",
+          "value": "cv"
+        },
+        {
+          "label": "Cornish",
+          "value": "kw"
+        },
+        {
+          "label": "Corsican",
+          "value": "co"
+        },
+        {
+          "label": "Cree",
+          "value": "cr"
+        },
+        {
+          "label": "Croatian",
+          "value": "hr"
+        },
+        {
+          "label": "Czech",
+          "value": "cs"
+        },
+        {
+          "label": "Danish",
+          "value": "da"
+        },
+        {
+          "label": "Divehi; Dhivehi; Maldivian",
+          "value": "dv"
+        },
+        {
+          "label": "Dutch; Flemish",
+          "value": "nl"
+        },
+        {
+          "label": "Dzongkha",
+          "value": "dz"
+        },
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Esperanto",
+          "value": "eo"
+        },
+        {
+          "label": "Estonian",
+          "value": "et"
+        },
+        {
+          "label": "Ewe",
+          "value": "ee"
+        },
+        {
+          "label": "Faroese",
+          "value": "fo"
+        },
+        {
+          "label": "Fijian",
+          "value": "fj"
+        },
+        {
+          "label": "Finnish",
+          "value": "fi"
+        },
+        {
+          "label": "French",
+          "value": "fr"
+        },
+        {
+          "label": "Fulah",
+          "value": "ff"
+        },
+        {
+          "label": "Gaelic; Scottish Gaelic",
+          "value": "gd"
+        },
+        {
+          "label": "Galician",
+          "value": "gl"
+        },
+        {
+          "label": "Ganda",
+          "value": "lg"
+        },
+        {
+          "label": "Georgian",
+          "value": "ka"
+        },
+        {
+          "label": "German",
+          "value": "de"
+        },
+        {
+          "label": "Greek, Modern (1453-)",
+          "value": "el"
+        },
+        {
+          "label": "Guarani",
+          "value": "gn"
+        },
+        {
+          "label": "Gujarati",
+          "value": "gu"
+        },
+        {
+          "label": "Haitian; Haitian Creole",
+          "value": "ht"
+        },
+        {
+          "label": "Hausa",
+          "value": "ha"
+        },
+        {
+          "label": "Hebrew",
+          "value": "he"
+        },
+        {
+          "label": "Herero",
+          "value": "hz"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Hiri Motu",
+          "value": "ho"
+        },
+        {
+          "label": "Hungarian",
+          "value": "hu"
+        },
+        {
+          "label": "Icelandic",
+          "value": "is"
+        },
+        {
+          "label": "Ido",
+          "value": "io"
+        },
+        {
+          "label": "Igbo",
+          "value": "ig"
+        },
+        {
+          "label": "Indonesian",
+          "value": "id"
+        },
+        {
+          "label": "Interlingua (International Auxiliary Language Association)",
+          "value": "ia"
+        },
+        {
+          "label": "Interlingue; Occidental",
+          "value": "ie"
+        },
+        {
+          "label": "Inuktitut",
+          "value": "iu"
+        },
+        {
+          "label": "Inupiaq",
+          "value": "ik"
+        },
+        {
+          "label": "Irish",
+          "value": "ga"
+        },
+        {
+          "label": "Italian",
+          "value": "it"
+        },
+        {
+          "label": "Japanese",
+          "value": "ja"
+        },
+        {
+          "label": "Javanese",
+          "value": "jv"
+        },
+        {
+          "label": "Kalaallisut; Greenlandic",
+          "value": "kl"
+        },
+        {
+          "label": "Kannada",
+          "value": "kn"
+        },
+        {
+          "label": "Kanuri",
+          "value": "kr"
+        },
+        {
+          "label": "Kashmiri",
+          "value": "ks"
+        },
+        {
+          "label": "Kazakh",
+          "value": "kk"
+        },
+        {
+          "label": "Kikuyu; Gikuyu",
+          "value": "ki"
+        },
+        {
+          "label": "Kinyarwanda",
+          "value": "rw"
+        },
+        {
+          "label": "Kirghiz; Kyrgyz",
+          "value": "ky"
+        },
+        {
+          "label": "Komi",
+          "value": "kv"
+        },
+        {
+          "label": "Kongo",
+          "value": "kg"
+        },
+        {
+          "label": "Korean",
+          "value": "ko"
+        },
+        {
+          "label": "Kuanyama; Kwanyama",
+          "value": "kj"
+        },
+        {
+          "label": "Kurdish",
+          "value": "ku"
+        },
+        {
+          "label": "Lao",
+          "value": "lo"
+        },
+        {
+          "label": "Latin",
+          "value": "la"
+        },
+        {
+          "label": "Latvian",
+          "value": "lv"
+        },
+        {
+          "label": "Limburgan; Limburger; Limburgish",
+          "value": "li"
+        },
+        {
+          "label": "Lingala",
+          "value": "ln"
+        },
+        {
+          "label": "Lithuanian",
+          "value": "lt"
+        },
+        {
+          "label": "Luba-Katanga",
+          "value": "lu"
+        },
+        {
+          "label": "Luxembourgish; Letzeburgesch",
+          "value": "lb"
+        },
+        {
+          "label": "Macedonian",
+          "value": "mk"
+        },
+        {
+          "label": "Malagasy",
+          "value": "mg"
+        },
+        {
+          "label": "Malay (macrolanguage)",
+          "value": "ms"
+        },
+        {
+          "label": "Malayalam",
+          "value": "ml"
+        },
+        {
+          "label": "Maltese",
+          "value": "mt"
+        },
+        {
+          "label": "Manx",
+          "value": "gv"
+        },
+        {
+          "label": "Maori",
+          "value": "mi"
+        },
+        {
+          "label": "Marathi",
+          "value": "mr"
+        },
+        {
+          "label": "Marshallese",
+          "value": "mh"
+        },
+        {
+          "label": "Mongolian",
+          "value": "mn"
+        },
+        {
+          "label": "Nauru",
+          "value": "na"
+        },
+        {
+          "label": "Navajo; Navaho",
+          "value": "nv"
+        },
+        {
+          "label": "Ndebele, North; North Ndebele",
+          "value": "nd"
+        },
+        {
+          "label": "Ndebele, South; South Ndebele",
+          "value": "nr"
+        },
+        {
+          "label": "Ndonga",
+          "value": "ng"
+        },
+        {
+          "label": "Nepali (macrolanguage)",
+          "value": "ne"
+        },
+        {
+          "label": "Northern Sami",
+          "value": "se"
+        },
+        {
+          "label": "Norwegian Nynorsk; Nynorsk, Norwegian",
+          "value": "nn"
+        },
+        {
+          "label": "Norwegian",
+          "value": "no"
+        },
+        {
+          "label": "Occitan (post 1500)",
+          "value": "oc"
+        },
+        {
+          "label": "Ojibwa",
+          "value": "oj"
+        },
+        {
+          "label": "Oriya (macrolanguage)",
+          "value": "or"
+        },
+        {
+          "label": "Oromo",
+          "value": "om"
+        },
+        {
+          "label": "Ossetian; Ossetic",
+          "value": "os"
+        },
+        {
+          "label": "Pali",
+          "value": "pi"
+        },
+        {
+          "label": "Panjabi; Punjabi",
+          "value": "pa"
+        },
+        {
+          "label": "Persian",
+          "value": "fa"
+        },
+        {
+          "label": "Polish",
+          "value": "pl"
+        },
+        {
+          "label": "Portuguese",
+          "value": "pt"
+        },
+        {
+          "label": "Pushto; Pashto",
+          "value": "ps"
+        },
+        {
+          "label": "Quechua",
+          "value": "qu"
+        },
+        {
+          "label": "Romanian; Moldavian; Moldovan",
+          "value": "ro"
+        },
+        {
+          "label": "Romansh",
+          "value": "rm"
+        },
+        {
+          "label": "Rundi",
+          "value": "rn"
+        },
+        {
+          "label": "Russian",
+          "value": "ru"
+        },
+        {
+          "label": "Samoan",
+          "value": "sm"
+        },
+        {
+          "label": "Sango",
+          "value": "sg"
+        },
+        {
+          "label": "Sanskrit",
+          "value": "sa"
+        },
+        {
+          "label": "Sardinian",
+          "value": "sc"
+        },
+        {
+          "label": "Serbian",
+          "value": "sr"
+        },
+        {
+          "label": "Shona",
+          "value": "sn"
+        },
+        {
+          "label": "Sichuan Yi; Nuosu",
+          "value": "ii"
+        },
+        {
+          "label": "Sindhi",
+          "value": "sd"
+        },
+        {
+          "label": "Sinhala; Sinhalese",
+          "value": "si"
+        },
+        {
+          "label": "Slovak",
+          "value": "sk"
+        },
+        {
+          "label": "Slovenian",
+          "value": "sl"
+        },
+        {
+          "label": "Somali",
+          "value": "so"
+        },
+        {
+          "label": "Sotho, Southern",
+          "value": "st"
+        },
+        {
+          "label": "Spanish; Castilian",
+          "value": "es"
+        },
+        {
+          "label": "Sundanese",
+          "value": "su"
+        },
+        {
+          "label": "Swahili (macrolanguage)",
+          "value": "sw"
+        },
+        {
+          "label": "Swati",
+          "value": "ss"
+        },
+        {
+          "label": "Swedish",
+          "value": "sv"
+        },
+        {
+          "label": "Tagalog",
+          "value": "tl"
+        },
+        {
+          "label": "Tahitian",
+          "value": "ty"
+        },
+        {
+          "label": "Tajik",
+          "value": "tg"
+        },
+        {
+          "label": "Tamil",
+          "value": "ta"
+        },
+        {
+          "label": "Tatar",
+          "value": "tt"
+        },
+        {
+          "label": "Telugu",
+          "value": "te"
+        },
+        {
+          "label": "Thai",
+          "value": "th"
+        },
+        {
+          "label": "Tibetan",
+          "value": "bo"
+        },
+        {
+          "label": "Tigrinya",
+          "value": "ti"
+        },
+        {
+          "label": "Tonga (Tonga Islands)",
+          "value": "to"
+        },
+        {
+          "label": "Tsonga",
+          "value": "ts"
+        },
+        {
+          "label": "Tswana",
+          "value": "tn"
+        },
+        {
+          "label": "Turkish",
+          "value": "tr"
+        },
+        {
+          "label": "Turkmen",
+          "value": "tk"
+        },
+        {
+          "label": "Twi",
+          "value": "tw"
+        },
+        {
+          "label": "Uighur; Uyghur",
+          "value": "ug"
+        },
+        {
+          "label": "Ukrainian",
+          "value": "uk"
+        },
+        {
+          "label": "Urdu",
+          "value": "ur"
+        },
+        {
+          "label": "Uzbek",
+          "value": "uz"
+        },
+        {
+          "label": "Venda",
+          "value": "ve"
+        },
+        {
+          "label": "Vietnamese",
+          "value": "vi"
+        },
+        {
+          "label": "Volapük",
+          "value": "vo"
+        },
+        {
+          "label": "Walloon",
+          "value": "wa"
+        },
+        {
+          "label": "Welsh",
+          "value": "cy"
+        },
+        {
+          "label": "Western Frisian",
+          "value": "fy"
+        },
+        {
+          "label": "Wolof",
+          "value": "wo"
+        },
+        {
+          "label": "Xhosa",
+          "value": "xh"
+        },
+        {
+          "label": "Yiddish",
+          "value": "yi"
+        },
+        {
+          "label": "Yoruba",
+          "value": "yo"
+        },
+        {
+          "label": "Zhuang; Chuang",
+          "value": "za"
+        },
+        {
+          "label": "Zulu",
+          "value": "zu"
+        }
+      ]
+    },
+    {
+      "name": "hs_journey_stage",
+      "label": "Journey Stage",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "New Contact",
+          "value": "new_contact"
+        },
+        {
+          "label": "In Nurturing",
+          "value": "in_nurturing"
+        },
+        {
+          "label": "Low-Intent",
+          "value": "low_intent"
+        },
+        {
+          "label": "Mid-Intent",
+          "value": "mid_intent"
+        },
+        {
+          "label": "High-Intent",
+          "value": "high_intent"
+        },
+        {
+          "label": "Unqualified",
+          "value": "unqualified"
+        },
+        {
+          "label": "Qualified",
+          "value": "qualified"
+        },
+        {
+          "label": "Onboarding",
+          "value": "onboarding"
+        },
+        {
+          "label": "Post Onboarding",
+          "value": "post_onboarding"
+        },
+        {
+          "label": "Engaged",
+          "value": "engaged"
+        },
+        {
+          "label": "Unengaged",
+          "value": "unengaged"
+        }
+      ]
+    },
+    {
+      "name": "hs_language",
+      "label": "Preferred language",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Afrikaans",
+          "value": "af"
+        },
+        {
+          "label": "Albanian",
+          "value": "sq"
+        },
+        {
+          "label": "Albanian - Albania",
+          "value": "sq-al"
+        },
+        {
+          "label": "Arabic",
+          "value": "ar"
+        },
+        {
+          "label": "Arabic - Algeria",
+          "value": "ar-dz"
+        },
+        {
+          "label": "Arabic - Bahrain",
+          "value": "ar-bh"
+        },
+        {
+          "label": "Arabic - Egypt",
+          "value": "ar-eg"
+        },
+        {
+          "label": "Arabic - Iraq",
+          "value": "ar-iq"
+        },
+        {
+          "label": "Arabic - Jordan",
+          "value": "ar-jo"
+        },
+        {
+          "label": "Arabic - Kuwait",
+          "value": "ar-kw"
+        },
+        {
+          "label": "Arabic - Lebanon",
+          "value": "ar-lb"
+        },
+        {
+          "label": "Arabic - Libya",
+          "value": "ar-ly"
+        },
+        {
+          "label": "Arabic - Morocco",
+          "value": "ar-ma"
+        },
+        {
+          "label": "Arabic - Oman",
+          "value": "ar-om"
+        },
+        {
+          "label": "Arabic - Qatar",
+          "value": "ar-qa"
+        },
+        {
+          "label": "Arabic - Saudi Arabia",
+          "value": "ar-sa"
+        },
+        {
+          "label": "Arabic - Sudan",
+          "value": "ar-sd"
+        },
+        {
+          "label": "Arabic - Syria",
+          "value": "ar-sy"
+        },
+        {
+          "label": "Arabic - Tunisia",
+          "value": "ar-tn"
+        },
+        {
+          "label": "Arabic - United Arab Emirates",
+          "value": "ar-ae"
+        },
+        {
+          "label": "Arabic - Yemen",
+          "value": "ar-ye"
+        },
+        {
+          "label": "Armenian",
+          "value": "hy"
+        },
+        {
+          "label": "Assamese",
+          "value": "as"
+        },
+        {
+          "label": "Azerbaijani",
+          "value": "az"
+        },
+        {
+          "label": "Basque",
+          "value": "eu"
+        },
+        {
+          "label": "Belarusian",
+          "value": "be"
+        },
+        {
+          "label": "Belarusian - Belarus",
+          "value": "be-by"
+        },
+        {
+          "label": "Bengali",
+          "value": "bn"
+        },
+        {
+          "label": "Bosnian",
+          "value": "ba"
+        },
+        {
+          "label": "Bulgarian",
+          "value": "bg"
+        },
+        {
+          "label": "Bulgarian - Bulgaria",
+          "value": "bg-bg"
+        },
+        {
+          "label": "Burmese",
+          "value": "my"
+        },
+        {
+          "label": "Burmese - Myanmar (Burma)",
+          "value": "my-mm"
+        },
+        {
+          "label": "Catalan",
+          "value": "ca"
+        },
+        {
+          "label": "Catalan - Catalan",
+          "value": "ca-es"
+        },
+        {
+          "label": "Cebuano - Philippines",
+          "value": "cb-pl"
+        },
+        {
+          "label": "Chinese",
+          "value": "zh"
+        },
+        {
+          "label": "Chinese - China",
+          "value": "zh-cn"
+        },
+        {
+          "label": "Chinese - Hong Kong SAR",
+          "value": "zh-hk"
+        },
+        {
+          "label": "Chinese - Macau SAR",
+          "value": "zh-mo"
+        },
+        {
+          "label": "Chinese - Singapore",
+          "value": "zh-sg"
+        },
+        {
+          "label": "Chinese - Taiwan",
+          "value": "zh-tw"
+        },
+        {
+          "label": "Chinese (Simplified)",
+          "value": "zh-chs"
+        },
+        {
+          "label": "Chinese (Traditional)",
+          "value": "zh-cht"
+        },
+        {
+          "label": "Croatian",
+          "value": "hr"
+        },
+        {
+          "label": "Croatian - Croatia",
+          "value": "hr-hr"
+        },
+        {
+          "label": "Czech",
+          "value": "cs"
+        },
+        {
+          "label": "Czech - Czech Republic",
+          "value": "cs-cz"
+        },
+        {
+          "label": "Danish",
+          "value": "da"
+        },
+        {
+          "label": "Danish - Denmark",
+          "value": "da-dk"
+        },
+        {
+          "label": "Dutch",
+          "value": "nl"
+        },
+        {
+          "label": "Dutch - Belgium",
+          "value": "nl-be"
+        },
+        {
+          "label": "Dutch - The Netherlands",
+          "value": "nl-nl"
+        },
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "English - Australia",
+          "value": "en-au"
+        },
+        {
+          "label": "English - Canada",
+          "value": "en-ca"
+        },
+        {
+          "label": "English - Hong Kong",
+          "value": "en-hk"
+        },
+        {
+          "label": "English - India",
+          "value": "en-in"
+        },
+        {
+          "label": "English - Ireland",
+          "value": "en-ie"
+        },
+        {
+          "label": "English - Malaysia",
+          "value": "en-my"
+        },
+        {
+          "label": "English - Malta",
+          "value": "en-mt"
+        },
+        {
+          "label": "English - New Zealand",
+          "value": "en-nz"
+        },
+        {
+          "label": "English - Philippines",
+          "value": "en-ph"
+        },
+        {
+          "label": "English - Singapore",
+          "value": "en-sg"
+        },
+        {
+          "label": "English - South Africa",
+          "value": "en-za"
+        },
+        {
+          "label": "English - United Kingdom",
+          "value": "en-gb"
+        },
+        {
+          "label": "English - United States",
+          "value": "en-us"
+        },
+        {
+          "label": "English - Zimbabwe",
+          "value": "en-zw"
+        },
+        {
+          "label": "Estonian",
+          "value": "et"
+        },
+        {
+          "label": "Estonian - Estonia",
+          "value": "et-ee"
+        },
+        {
+          "label": "Faroese",
+          "value": "fo"
+        },
+        {
+          "label": "Farsi",
+          "value": "fa"
+        },
+        {
+          "label": "Finnish",
+          "value": "fi"
+        },
+        {
+          "label": "Finnish - Finland",
+          "value": "fi-fi"
+        },
+        {
+          "label": "French",
+          "value": "fr"
+        },
+        {
+          "label": "French - Belgium",
+          "value": "fr-be"
+        },
+        {
+          "label": "French - Canada",
+          "value": "fr-ca"
+        },
+        {
+          "label": "French - France",
+          "value": "fr-fr"
+        },
+        {
+          "label": "French - Luxembourg",
+          "value": "fr-lu"
+        },
+        {
+          "label": "French - Monaco",
+          "value": "fr-mc"
+        },
+        {
+          "label": "French - Switzerland",
+          "value": "fr-ch"
+        },
+        {
+          "label": "Galician",
+          "value": "gl"
+        },
+        {
+          "label": "Georgian",
+          "value": "ka"
+        },
+        {
+          "label": "German",
+          "value": "de"
+        },
+        {
+          "label": "German - Austria",
+          "value": "de-at"
+        },
+        {
+          "label": "German - Germany",
+          "value": "de-de"
+        },
+        {
+          "label": "German - Greece",
+          "value": "de-gr"
+        },
+        {
+          "label": "German - Liechtenstein",
+          "value": "de-li"
+        },
+        {
+          "label": "German - Luxembourg",
+          "value": "de-lu"
+        },
+        {
+          "label": "German - Switzerland",
+          "value": "de-ch"
+        },
+        {
+          "label": "Greek",
+          "value": "el"
+        },
+        {
+          "label": "Greek - Cyprus",
+          "value": "el-cy"
+        },
+        {
+          "label": "Greek - Greece",
+          "value": "el-gr"
+        },
+        {
+          "label": "Gujarati",
+          "value": "gu"
+        },
+        {
+          "label": "Haitian Creole",
+          "value": "ht"
+        },
+        {
+          "label": "Hausa",
+          "value": "ha"
+        },
+        {
+          "label": "Hebrew",
+          "value": "he"
+        },
+        {
+          "label": "Hebrew - Israel",
+          "value": "he-il"
+        },
+        {
+          "label": "Hebrew - Israel (Legacy)",
+          "value": "iw-il"
+        },
+        {
+          "label": "Hindi",
+          "value": "hi"
+        },
+        {
+          "label": "Hindi - India",
+          "value": "hi-in"
+        },
+        {
+          "label": "Hungarian",
+          "value": "hu"
+        },
+        {
+          "label": "Hungarian - Hungary",
+          "value": "hu-hu"
+        },
+        {
+          "label": "Icelandic",
+          "value": "is"
+        },
+        {
+          "label": "Icelandic - Iceland",
+          "value": "is-is"
+        },
+        {
+          "label": "Indonesian",
+          "value": "id"
+        },
+        {
+          "label": "Indonesian - Indonesia",
+          "value": "in-id"
+        },
+        {
+          "label": "Irish",
+          "value": "ga"
+        },
+        {
+          "label": "Irish - Ireland",
+          "value": "ga-ie"
+        },
+        {
+          "label": "Italian",
+          "value": "it"
+        },
+        {
+          "label": "Italian - Italy",
+          "value": "it-it"
+        },
+        {
+          "label": "Italian - Switzerland",
+          "value": "it-ch"
+        },
+        {
+          "label": "Japanese",
+          "value": "ja"
+        },
+        {
+          "label": "Japanese - Japan",
+          "value": "ja-jp"
+        },
+        {
+          "label": "Kannada",
+          "value": "kn"
+        },
+        {
+          "label": "Kazakh",
+          "value": "kk"
+        },
+        {
+          "label": "Khmer",
+          "value": "kh"
+        },
+        {
+          "label": "Kinyarwanda",
+          "value": "rw"
+        },
+        {
+          "label": "Kiswahili",
+          "value": "ki"
+        },
+        {
+          "label": "Konkani",
+          "value": "kok"
+        },
+        {
+          "label": "Korean",
+          "value": "ko"
+        },
+        {
+          "label": "Korean - South Korea",
+          "value": "ko-kr"
+        },
+        {
+          "label": "Kurdish",
+          "value": "ku"
+        },
+        {
+          "label": "Kyrgyz",
+          "value": "ky"
+        },
+        {
+          "label": "Lao",
+          "value": "lo"
+        },
+        {
+          "label": "Latvian",
+          "value": "lv"
+        },
+        {
+          "label": "Latvian - Latvia",
+          "value": "lv-lv"
+        },
+        {
+          "label": "Lithuanian",
+          "value": "lt"
+        },
+        {
+          "label": "Lithuanian - Lithuania",
+          "value": "lt-lt"
+        },
+        {
+          "label": "Macedonian",
+          "value": "mk"
+        },
+        {
+          "label": "Macedonian - Macedonia",
+          "value": "mk-mk"
+        },
+        {
+          "label": "Malagasy",
+          "value": "mg"
+        },
+        {
+          "label": "Malay",
+          "value": "ms"
+        },
+        {
+          "label": "Malayalam",
+          "value": "m1"
+        },
+        {
+          "label": "Malay - Brunei",
+          "value": "ms-bn"
+        },
+        {
+          "label": "Malay - Malaysia",
+          "value": "ms-my"
+        },
+        {
+          "label": "Maltese",
+          "value": "mt"
+        },
+        {
+          "label": "Maltese - Malta",
+          "value": "mt-mt"
+        },
+        {
+          "label": "Marathi",
+          "value": "mr"
+        },
+        {
+          "label": "Mongolian",
+          "value": "mn"
+        },
+        {
+          "label": "Norwegian",
+          "value": "no"
+        },
+        {
+          "label": "Norwegian Bokmal",
+          "value": "nb"
+        },
+        {
+          "label": "Norwegian - Norway",
+          "value": "no-no"
+        },
+        {
+          "label": "Nyanja",
+          "value": "ny"
+        },
+        {
+          "label": "ʻŌlelo Hawaiʻi",
+          "value": "haw"
+        },
+        {
+          "label": "Polish",
+          "value": "pl"
+        },
+        {
+          "label": "Polish - Poland",
+          "value": "pl-pl"
+        },
+        {
+          "label": "Portuguese",
+          "value": "pt"
+        },
+        {
+          "label": "Portuguese - Brazil",
+          "value": "pt-br"
+        },
+        {
+          "label": "Portuguese - Portugal",
+          "value": "pt-pt"
+        },
+        {
+          "label": "Punjabi",
+          "value": "pa"
+        },
+        {
+          "label": "Romanian",
+          "value": "ro"
+        },
+        {
+          "label": "Romanian - Romania",
+          "value": "ro-ro"
+        },
+        {
+          "label": "Russian",
+          "value": "ru"
+        },
+        {
+          "label": "Russian - Russia",
+          "value": "ru-ru"
+        },
+        {
+          "label": "Sanskrit",
+          "value": "sa"
+        },
+        {
+          "label": "Serbian",
+          "value": "sr"
+        },
+        {
+          "label": "Serbian - Bosnia and Herzegovina",
+          "value": "sr-ba"
+        },
+        {
+          "label": "Serbian - Montenegro",
+          "value": "sr-me"
+        },
+        {
+          "label": "Serbian - Serbia",
+          "value": "sr-rs"
+        },
+        {
+          "label": "Serbian - Serbia and Montenegro (Former)",
+          "value": "sr-cs"
+        },
+        {
+          "label": "Sinhala",
+          "value": "si"
+        },
+        {
+          "label": "Slovak",
+          "value": "sk"
+        },
+        {
+          "label": "Slovak - Slovakia",
+          "value": "sk-sk"
+        },
+        {
+          "label": "Slovenian",
+          "value": "sl"
+        },
+        {
+          "label": "Slovenian - Slovenia",
+          "value": "sl-si"
+        },
+        {
+          "label": "Spanish",
+          "value": "es"
+        },
+        {
+          "label": "Spanish - Argentina",
+          "value": "es-ar"
+        },
+        {
+          "label": "Spanish - Bolivia",
+          "value": "es-bo"
+        },
+        {
+          "label": "Spanish - Chile",
+          "value": "es-cl"
+        },
+        {
+          "label": "Spanish - Colombia",
+          "value": "es-co"
+        },
+        {
+          "label": "Spanish - Costa Rica",
+          "value": "es-cr"
+        },
+        {
+          "label": "Spanish - Cuba",
+          "value": "es-cu"
+        },
+        {
+          "label": "Spanish - Dominican Republic",
+          "value": "es-do"
+        },
+        {
+          "label": "Spanish - Ecuador",
+          "value": "es-ec"
+        },
+        {
+          "label": "Spanish - El Salvador",
+          "value": "es-sv"
+        },
+        {
+          "label": "Spanish - Guatemala",
+          "value": "es-gt"
+        },
+        {
+          "label": "Spanish - Honduras",
+          "value": "es-hn"
+        },
+        {
+          "label": "Spanish - Mexico",
+          "value": "es-mx"
+        },
+        {
+          "label": "Spanish - Nicaragua",
+          "value": "es-ni"
+        },
+        {
+          "label": "Spanish - Panama",
+          "value": "es-pa"
+        },
+        {
+          "label": "Spanish - Paraguay",
+          "value": "es-py"
+        },
+        {
+          "label": "Spanish - Peru",
+          "value": "es-pe"
+        },
+        {
+          "label": "Spanish - Puerto Rico",
+          "value": "es-pr"
+        },
+        {
+          "label": "Spanish - Spain",
+          "value": "es-es"
+        },
+        {
+          "label": "Spanish - United States",
+          "value": "es-us"
+        },
+        {
+          "label": "Spanish - Uruguay",
+          "value": "es-uy"
+        },
+        {
+          "label": "Spanish - Venezuela",
+          "value": "es-ve"
+        },
+        {
+          "label": "Swahili",
+          "value": "sw"
+        },
+        {
+          "label": "Swedish",
+          "value": "sv"
+        },
+        {
+          "label": "Swedish - Finland",
+          "value": "sv-fi"
+        },
+        {
+          "label": "Swedish - Sweden",
+          "value": "sv-se"
+        },
+        {
+          "label": "Syriac",
+          "value": "sy"
+        },
+        {
+          "label": "Tagalog",
+          "value": "t1"
+        },
+        {
+          "label": "Tamil",
+          "value": "ta"
+        },
+        {
+          "label": "Tatar",
+          "value": "tt"
+        },
+        {
+          "label": "Telugu",
+          "value": "te"
+        },
+        {
+          "label": "Thai",
+          "value": "th"
+        },
+        {
+          "label": "Thai - Thailand",
+          "value": "th-th"
+        },
+        {
+          "label": "Turkish",
+          "value": "tr"
+        },
+        {
+          "label": "Turkish - Türkiye",
+          "value": "tr-tr"
+        },
+        {
+          "label": "Ukrainian",
+          "value": "uk"
+        },
+        {
+          "label": "Ukrainian - Ukraine",
+          "value": "uk-ua"
+        },
+        {
+          "label": "Urdu",
+          "value": "ur"
+        },
+        {
+          "label": "Uzbek",
+          "value": "uz"
+        },
+        {
+          "label": "Vietnamese",
+          "value": "vi"
+        },
+        {
+          "label": "Vietnamese - Vietnam",
+          "value": "vi-vn"
+        },
+        {
+          "label": "Yoruba",
+          "value": "yo"
+        }
+      ]
+    },
+    {
+      "name": "hs_last_sales_activity_type",
+      "label": "Last Engagement Type",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Company Website Visit",
+          "value": "COMPANYPROSPECTS_REVISIT"
+        },
+        {
+          "label": "Document View",
+          "value": "PRESENTATION_REVISIT"
+        },
+        {
+          "label": "Email Click",
+          "value": "EMAIL_CLICK"
+        },
+        {
+          "label": "Email Open",
+          "value": "EMAIL_OPEN"
+        },
+        {
+          "label": "Email Reply",
+          "value": "EMAIL_REPLY"
+        },
+        {
+          "label": "Form Submitted",
+          "value": "FORM_SUBMITTED"
+        },
+        {
+          "label": "Meeting Booked",
+          "value": "MEETING_BOOKED"
+        },
+        {
+          "label": "Website Visit",
+          "value": "HUBSPOT_REVISIT"
+        }
+      ]
+    },
+    {
+      "name": "hs_latest_source",
+      "label": "Latest Traffic Source",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Organic Search",
+          "value": "ORGANIC_SEARCH"
+        },
+        {
+          "label": "Paid Search",
+          "value": "PAID_SEARCH"
+        },
+        {
+          "label": "Email Marketing",
+          "value": "EMAIL_MARKETING"
+        },
+        {
+          "label": "Organic Social",
+          "value": "SOCIAL_MEDIA"
+        },
+        {
+          "label": "Referrals",
+          "value": "REFERRALS"
+        },
+        {
+          "label": "Other Campaigns",
+          "value": "OTHER_CAMPAIGNS"
+        },
+        {
+          "label": "Direct Traffic",
+          "value": "DIRECT_TRAFFIC"
+        },
+        {
+          "label": "Offline Sources",
+          "value": "OFFLINE"
+        },
+        {
+          "label": "Paid Social",
+          "value": "PAID_SOCIAL"
+        },
+        {
+          "label": "AI Referrals",
+          "value": "AI_REFERRALS"
+        }
+      ]
+    },
+    {
+      "name": "hs_lead_status",
+      "label": "Lead Status",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "nuevo",
+          "value": "nuevo"
+        },
+        {
+          "label": "asignado",
+          "value": "asignado"
+        },
+        {
+          "label": "whatsapp enviado",
+          "value": "whatsapp enviado"
+        },
+        {
+          "label": "conectado por whatsapp",
+          "value": "conectado por whatsapp"
+        },
+        {
+          "label": "conectado llamada",
+          "value": "conectado llamada"
+        },
+        {
+          "label": "llamada agendada",
+          "value": "llamada agendada"
+        },
+        {
+          "label": "no contesta whatsapp",
+          "value": "no contesta whatsapp"
+        },
+        {
+          "label": "no contesta llamada",
+          "value": "no contesta llamada"
+        },
+        {
+          "label": "Buscar en el futuro",
+          "value": "Buscar en el futuro"
+        },
+        {
+          "label": "No interesado",
+          "value": "No interesado general"
+        },
+        {
+          "label": "cliente",
+          "value": "cliente"
+        },
+        {
+          "label": "Cancelado",
+          "value": "Cancelado"
+        },
+        {
+          "label": "familiar",
+          "value": "familiar"
+        },
+        {
+          "label": "Otro",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "name": "hs_legal_basis",
+      "label": "Legal basis for processing contact's data",
+      "fieldType": "checkbox",
+      "options": [
+        {
+          "label": "Legitimate interest - Lead",
+          "value": "Legitimate interest – prospect/lead"
+        },
+        {
+          "label": "Legitimate interest - Customer",
+          "value": "Legitimate interest – existing customer"
+        },
+        {
+          "label": "Legitimate interest - Other",
+          "value": "Legitimate interest - other"
+        },
+        {
+          "label": "Performance of a contract",
+          "value": "Performance of a contract"
+        },
+        {
+          "label": "Freely given consent from contact",
+          "value": "Freely given consent from contact"
+        },
+        {
+          "label": "Not applicable",
+          "value": "Not applicable"
+        }
+      ]
+    },
+    {
+      "name": "hs_linkedin_ad_clicked",
+      "label": "Clicked LinkedIn Ad",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "hs_marketable_reason_type",
+      "label": "Marketing contact status source type",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Ad",
+          "value": "AD"
+        },
+        {
+          "label": "Contact Import",
+          "value": "CONTACT_IMPORT"
+        },
+        {
+          "label": "Conversation",
+          "value": "CONVERSATION"
+        },
+        {
+          "label": "Form Submission",
+          "value": "FORM_SUBMISSION"
+        },
+        {
+          "label": "Initial State",
+          "value": "INITIAL_STATE"
+        },
+        {
+          "label": "Integrator Set",
+          "value": "INTEGRATOR_SET"
+        },
+        {
+          "label": "User Set",
+          "value": "USER_SET"
+        },
+        {
+          "label": "Workflow",
+          "value": "WORKFLOW"
+        },
+        {
+          "label": "Email",
+          "value": "EMAIL"
+        },
+        {
+          "label": "Sample Contact",
+          "value": "SAMPLE_CONTACT"
+        },
+        {
+          "label": "Feedback Submission",
+          "value": "FEEDBACK_SUBMISSION"
+        }
+      ]
+    },
+    {
+      "name": "hs_marketable_status",
+      "label": "Marketing contact status",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Marketing contact",
+          "value": "true"
+        },
+        {
+          "label": "Non-marketing contact",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "hs_marketable_until_renewal",
+      "label": "Marketing contact until next update",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "--",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "hs_merged_object_ids",
+      "label": "Merged Contact IDs",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_notes_next_activity_type",
+      "label": "Next Activity Type",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Call",
+          "value": "CALL"
+        },
+        {
+          "label": "Conversation session",
+          "value": "CONVERSATION_SESSION"
+        },
+        {
+          "label": "Email reply from contact",
+          "value": "INCOMING_EMAIL"
+        },
+        {
+          "label": "Email sent to contact",
+          "value": "EMAIL"
+        },
+        {
+          "label": "Forwarded email",
+          "value": "FORWARDED_EMAIL"
+        },
+        {
+          "label": "LinkedIn message",
+          "value": "LINKEDIN_MESSAGE"
+        },
+        {
+          "label": "Meeting",
+          "value": "MEETING"
+        },
+        {
+          "label": "Note",
+          "value": "NOTE"
+        },
+        {
+          "label": "Postal mail",
+          "value": "POSTAL_MAIL"
+        },
+        {
+          "label": "Publishing task",
+          "value": "PUBLISHING_TASK"
+        },
+        {
+          "label": "SMS",
+          "value": "SMS"
+        },
+        {
+          "label": "Task",
+          "value": "TASK"
+        },
+        {
+          "label": "WhatsApp",
+          "value": "WHATS_APP"
+        }
+      ]
+    },
+    {
+      "name": "hs_object_source_label",
+      "label": "Record source",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_owning_teams",
+      "label": "Owning Teams",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_persona",
+      "label": "Persona",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_pipeline",
+      "label": "Pipeline",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hs_predictivecontactscorebucket",
+      "label": "Lead Rating",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "1 Star",
+          "value": "bucket_1"
+        },
+        {
+          "label": "2 Stars",
+          "value": "bucket_2"
+        },
+        {
+          "label": "3 Stars",
+          "value": "bucket_3"
+        },
+        {
+          "label": "4 Stars",
+          "value": "bucket_4"
+        }
+      ]
+    },
+    {
+      "name": "hs_predictivescoringtier",
+      "label": "Contact priority",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Very High",
+          "value": "tier_1"
+        },
+        {
+          "label": "High",
+          "value": "tier_2"
+        },
+        {
+          "label": "Medium",
+          "value": "tier_3"
+        },
+        {
+          "label": "Low",
+          "value": "tier_4"
+        },
+        {
+          "label": "Closed Won",
+          "value": "closed_won"
+        }
+      ]
+    },
+    {
+      "name": "hs_role",
+      "label": "Employment Role",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Accounting",
+          "value": "accounting"
+        },
+        {
+          "label": "Administrative",
+          "value": "administrative"
+        },
+        {
+          "label": "Business Development",
+          "value": "business_development"
+        },
+        {
+          "label": "Communications",
+          "value": "communications"
+        },
+        {
+          "label": "Consulting",
+          "value": "consulting"
+        },
+        {
+          "label": "Customer Service",
+          "value": "customer_service"
+        },
+        {
+          "label": "Design",
+          "value": "design"
+        },
+        {
+          "label": "Education",
+          "value": "education"
+        },
+        {
+          "label": "Engineering",
+          "value": "engineering"
+        },
+        {
+          "label": "Entrepreneurship",
+          "value": "entrepreneurship"
+        },
+        {
+          "label": "Finance",
+          "value": "finance"
+        },
+        {
+          "label": "Health Professional",
+          "value": "health_professional"
+        },
+        {
+          "label": "Human Resources",
+          "value": "human_resources"
+        },
+        {
+          "label": "Information Technology",
+          "value": "information_technology"
+        },
+        {
+          "label": "Legal",
+          "value": "legal"
+        },
+        {
+          "label": "Marketing",
+          "value": "marketing"
+        },
+        {
+          "label": "Operations",
+          "value": "operations"
+        },
+        {
+          "label": "Product",
+          "value": "product"
+        },
+        {
+          "label": "Project Management",
+          "value": "project_management"
+        },
+        {
+          "label": "Public Relations",
+          "value": "public_relations"
+        },
+        {
+          "label": "Quality Assurance",
+          "value": "quality_assurance"
+        },
+        {
+          "label": "Real Estate",
+          "value": "real_estate"
+        },
+        {
+          "label": "Recruiting",
+          "value": "recruiting"
+        },
+        {
+          "label": "Research",
+          "value": "research"
+        },
+        {
+          "label": "Sales",
+          "value": "sales"
+        },
+        {
+          "label": "Support",
+          "value": "support"
+        },
+        {
+          "label": "Retired",
+          "value": "retired"
+        }
+      ]
+    },
+    {
+      "name": "hs_sa_first_engagement_descr",
+      "label": "Description of first engagement",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "",
+          "value": "EMPTY_DESCRIPTION"
+        },
+        {
+          "label": "Bounced",
+          "value": "BOUNCED"
+        },
+        {
+          "label": "Busy",
+          "value": "BUSY"
+        },
+        {
+          "label": "Calling CRM user",
+          "value": "CALLING_CRM_USER"
+        },
+        {
+          "label": "Canceled",
+          "value": "CANCELED"
+        },
+        {
+          "label": "Completed",
+          "value": "COMPLETED"
+        },
+        {
+          "label": "Connecting",
+          "value": "CONNECTING"
+        },
+        {
+          "label": "Deferred",
+          "value": "DEFERRED"
+        },
+        {
+          "label": "Facebook Messenger",
+          "value": "FB_MESSENGER"
+        },
+        {
+          "label": "Failed",
+          "value": "FAILED"
+        },
+        {
+          "label": "In progress",
+          "value": "IN_PROGRESS"
+        },
+        {
+          "label": "Live chat",
+          "value": "LIVE_CHAT"
+        },
+        {
+          "label": "Logged call",
+          "value": "LOGGED_CALL"
+        },
+        {
+          "label": "No answer",
+          "value": "NO_ANSWER"
+        },
+        {
+          "label": "No show",
+          "value": "NO_SHOW"
+        },
+        {
+          "label": "Not started",
+          "value": "NOT_STARTED"
+        },
+        {
+          "label": "Queued",
+          "value": "QUEUED"
+        },
+        {
+          "label": "Rescheduled",
+          "value": "RESCHEDULED"
+        },
+        {
+          "label": "Ringing",
+          "value": "RINGING"
+        },
+        {
+          "label": "Scheduled",
+          "value": "SCHEDULED"
+        },
+        {
+          "label": "Sending",
+          "value": "SENDING"
+        },
+        {
+          "label": "Sent",
+          "value": "SENT"
+        },
+        {
+          "label": "Waiting",
+          "value": "WAITING"
+        },
+        {
+          "label": "Missed",
+          "value": "MISSED"
+        },
+        {
+          "label": "On Hold",
+          "value": "HOLD"
+        }
+      ]
+    },
+    {
+      "name": "hs_sa_first_engagement_object_type",
+      "label": "Type of first engagement",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Call",
+          "value": "CALL"
+        },
+        {
+          "label": "Conversation session",
+          "value": "CONVERSATION_SESSION"
+        },
+        {
+          "label": "Email",
+          "value": "EMAIL"
+        },
+        {
+          "label": "Meeting",
+          "value": "MEETING_EVENT"
+        },
+        {
+          "label": "Task",
+          "value": "TASK"
+        }
+      ]
+    },
+    {
+      "name": "hs_seniority",
+      "label": "Employment Seniority",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "VP",
+          "value": "vp"
+        },
+        {
+          "label": "Director",
+          "value": "director"
+        },
+        {
+          "label": "Entry",
+          "value": "entry"
+        },
+        {
+          "label": "Executive",
+          "value": "executive"
+        },
+        {
+          "label": "Manager",
+          "value": "manager"
+        },
+        {
+          "label": "Owner",
+          "value": "owner"
+        },
+        {
+          "label": "Partner",
+          "value": "partner"
+        },
+        {
+          "label": "Senior",
+          "value": "senior"
+        },
+        {
+          "label": "Employee",
+          "value": "employee"
+        }
+      ]
+    },
+    {
+      "name": "hs_shared_team_ids",
+      "label": "Shared teams",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_shared_user_ids",
+      "label": "Shared users",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_sub_role",
+      "label": "Employment Sub Role",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Account Executive",
+          "value": "account_executive"
+        },
+        {
+          "label": "Account Manager",
+          "value": "account_manager"
+        },
+        {
+          "label": "Accountant",
+          "value": "accountant"
+        },
+        {
+          "label": "Accounting Manager",
+          "value": "accounting_manager"
+        },
+        {
+          "label": "Administrative Assistant",
+          "value": "administrative_assistant"
+        },
+        {
+          "label": "Appraisal",
+          "value": "appraisal"
+        },
+        {
+          "label": "Architect IT",
+          "value": "architect_it"
+        },
+        {
+          "label": "Assistant",
+          "value": "assistant"
+        },
+        {
+          "label": "Attorney",
+          "value": "attorney"
+        },
+        {
+          "label": "Auditor",
+          "value": "auditor"
+        },
+        {
+          "label": "Brand Marketing",
+          "value": "brand_marketing"
+        },
+        {
+          "label": "Business Analyst",
+          "value": "business_analyst"
+        },
+        {
+          "label": "Business Consultant",
+          "value": "business_consultant"
+        },
+        {
+          "label": "Business Manager",
+          "value": "business_manager"
+        },
+        {
+          "label": "Chief Financial Officer",
+          "value": "chief_financial_officer"
+        },
+        {
+          "label": "Communications Manager",
+          "value": "communications_manager"
+        },
+        {
+          "label": "Community",
+          "value": "community"
+        },
+        {
+          "label": "Content Marketing",
+          "value": "content_marketing"
+        },
+        {
+          "label": "Contracts",
+          "value": "contracts"
+        },
+        {
+          "label": "Creative",
+          "value": "creative"
+        },
+        {
+          "label": "Customer Service Specialist",
+          "value": "customer_service_specialist"
+        },
+        {
+          "label": "Customer Success",
+          "value": "customer_success"
+        },
+        {
+          "label": "Data IT",
+          "value": "data_it"
+        },
+        {
+          "label": "Data Science Engineer",
+          "value": "data_science_engineer"
+        },
+        {
+          "label": "Database Administrator",
+          "value": "database_administrator"
+        },
+        {
+          "label": "Design Engineer",
+          "value": "design_engineer"
+        },
+        {
+          "label": "Development Specialist",
+          "value": "development_specialist"
+        },
+        {
+          "label": "Devops Engineer",
+          "value": "devops_engineer"
+        },
+        {
+          "label": "Digital Marketing",
+          "value": "digital_marketing"
+        },
+        {
+          "label": "Director of Development",
+          "value": "director_of_development"
+        },
+        {
+          "label": "Editorial",
+          "value": "editorial"
+        },
+        {
+          "label": "Electrical Engineer",
+          "value": "electrical_engineer"
+        },
+        {
+          "label": "Engineering Manager",
+          "value": "engineering_manager"
+        },
+        {
+          "label": "Events",
+          "value": "events"
+        },
+        {
+          "label": "Executive Assistant",
+          "value": "executive_assistant"
+        },
+        {
+          "label": "Facilities",
+          "value": "facilities"
+        },
+        {
+          "label": "Fashion Design",
+          "value": "fashion_design"
+        },
+        {
+          "label": "Field Marketing",
+          "value": "field_marketing"
+        },
+        {
+          "label": "Financial Analyst",
+          "value": "financial_analyst"
+        },
+        {
+          "label": "Financial Controller",
+          "value": "financial_controller"
+        },
+        {
+          "label": "Fitness",
+          "value": "fitness"
+        },
+        {
+          "label": "Founder",
+          "value": "founder"
+        },
+        {
+          "label": "General Counsel",
+          "value": "general_counsel"
+        },
+        {
+          "label": "General Manager",
+          "value": "general_manager"
+        },
+        {
+          "label": "General Partner",
+          "value": "general_partner"
+        },
+        {
+          "label": "Graphic Design",
+          "value": "graphic_design"
+        },
+        {
+          "label": "Human Resources Specialist",
+          "value": "human_resources_specialist"
+        },
+        {
+          "label": "Information Technology Specialist",
+          "value": "information_technology_specialist"
+        },
+        {
+          "label": "Investment",
+          "value": "investment"
+        },
+        {
+          "label": "Investment Banker",
+          "value": "investment_banker"
+        },
+        {
+          "label": "Journalist",
+          "value": "journalist"
+        },
+        {
+          "label": "Key Account Manager",
+          "value": "key_account_manager"
+        },
+        {
+          "label": "Law Enforcement",
+          "value": "law_enforcement"
+        },
+        {
+          "label": "Lawyer",
+          "value": "lawyer"
+        },
+        {
+          "label": "Logistics Manager",
+          "value": "logistics_manager"
+        },
+        {
+          "label": "Management",
+          "value": "management"
+        },
+        {
+          "label": "Marketing Specialist",
+          "value": "marketing_specialist"
+        },
+        {
+          "label": "Mechanical Engineer",
+          "value": "mechanical_engineer"
+        },
+        {
+          "label": "Medical Doctor",
+          "value": "medical_doctor"
+        },
+        {
+          "label": "Network Engineer",
+          "value": "network_engineer"
+        },
+        {
+          "label": "Nurse",
+          "value": "nurse"
+        },
+        {
+          "label": "Office Management",
+          "value": "office_management"
+        },
+        {
+          "label": "Office Manager",
+          "value": "office_manager"
+        },
+        {
+          "label": "Operational Specialist",
+          "value": "operational_specialist"
+        },
+        {
+          "label": "Owner",
+          "value": "owner"
+        },
+        {
+          "label": "Paralegal",
+          "value": "paralegal"
+        },
+        {
+          "label": "Principal",
+          "value": "principal"
+        },
+        {
+          "label": "Product Design",
+          "value": "product_design"
+        },
+        {
+          "label": "Product Manager",
+          "value": "product_manager"
+        },
+        {
+          "label": "Product Marketing",
+          "value": "product_marketing"
+        },
+        {
+          "label": "Production Manager",
+          "value": "production_manager"
+        },
+        {
+          "label": "Professor",
+          "value": "professor"
+        },
+        {
+          "label": "Program Coordinator",
+          "value": "program_coordinator"
+        },
+        {
+          "label": "Program Manager",
+          "value": "program_manager"
+        },
+        {
+          "label": "Project Engineer",
+          "value": "project_engineer"
+        },
+        {
+          "label": "Project Manager",
+          "value": "project_manager"
+        },
+        {
+          "label": "Property Manager",
+          "value": "property_manager"
+        },
+        {
+          "label": "QA engineer",
+          "value": "qa_engineer"
+        },
+        {
+          "label": "QA IT",
+          "value": "qa_it"
+        },
+        {
+          "label": "Quality Assurance Manager",
+          "value": "quality_assurance_manager"
+        },
+        {
+          "label": "Quality Assurance Specialist",
+          "value": "quality_assurance_specialist"
+        },
+        {
+          "label": "Realtor",
+          "value": "realtor"
+        },
+        {
+          "label": "Recruiter",
+          "value": "recruiter"
+        },
+        {
+          "label": "Relationship Manager",
+          "value": "relationship_manager"
+        },
+        {
+          "label": "Research Analyst",
+          "value": "research_analyst"
+        },
+        {
+          "label": "Risk Compliance",
+          "value": "risk_compliance"
+        },
+        {
+          "label": "Sales Executive",
+          "value": "sales_executive"
+        },
+        {
+          "label": "Sales Operations",
+          "value": "sales_operations"
+        },
+        {
+          "label": "Sales Specialist",
+          "value": "sales_specialist"
+        },
+        {
+          "label": "Salesperson",
+          "value": "salesperson"
+        },
+        {
+          "label": "Secretary",
+          "value": "secretary"
+        },
+        {
+          "label": "Social Marketing",
+          "value": "social_marketing"
+        },
+        {
+          "label": "Software Engineer",
+          "value": "software_engineer"
+        },
+        {
+          "label": "Strategy",
+          "value": "strategy"
+        },
+        {
+          "label": "Student",
+          "value": "student"
+        },
+        {
+          "label": "Support",
+          "value": "support"
+        },
+        {
+          "label": "Support Specialist",
+          "value": "support_specialist"
+        },
+        {
+          "label": "System Administrator",
+          "value": "system_administrator"
+        },
+        {
+          "label": "System Analyst",
+          "value": "system_analyst"
+        },
+        {
+          "label": "Systems Engineer",
+          "value": "systems_engineer"
+        },
+        {
+          "label": "Talent",
+          "value": "talent"
+        },
+        {
+          "label": "Tax Audit",
+          "value": "tax_audit"
+        },
+        {
+          "label": "Teacher",
+          "value": "teacher"
+        },
+        {
+          "label": "Technical Manager",
+          "value": "technical_manager"
+        },
+        {
+          "label": "Technical Support Specialist",
+          "value": "technical_support_specialist"
+        },
+        {
+          "label": "Therapist",
+          "value": "therapist"
+        },
+        {
+          "label": "Training",
+          "value": "training"
+        },
+        {
+          "label": "Video",
+          "value": "video"
+        },
+        {
+          "label": "Web Developer",
+          "value": "web_developer"
+        },
+        {
+          "label": "Writer",
+          "value": "writer"
+        },
+        {
+          "label": "Chief Executive Officer",
+          "value": "chief_executive_officer"
+        },
+        {
+          "label": "Chief Operating Officer",
+          "value": "chief_operating_officer"
+        },
+        {
+          "label": "Chief Marketing Officer",
+          "value": "chief_marketing_officer"
+        },
+        {
+          "label": "Chief Technology Officer",
+          "value": "chief_technology_officer"
+        },
+        {
+          "label": "Chief Information Officer",
+          "value": "chief_information_officer"
+        },
+        {
+          "label": "Chief Human Resources officer",
+          "value": "chief_human_resources_officer"
+        },
+        {
+          "label": "Chief Compliance Officer",
+          "value": "chief_compliance_officer"
+        },
+        {
+          "label": "Chief Risk Officer",
+          "value": "chief_risk_officer"
+        },
+        {
+          "label": "Chief Data Officer",
+          "value": "chief_data_officer"
+        },
+        {
+          "label": "Chief Product Officer",
+          "value": "chief_product_officer"
+        },
+        {
+          "label": "Chief Revenue Officer",
+          "value": "chief_revenue_officer"
+        },
+        {
+          "label": "Chief Sustainability Officer",
+          "value": "chief_sustainability_officer"
+        },
+        {
+          "label": "Chief Legal Officer",
+          "value": "chief_legal_officer"
+        },
+        {
+          "label": "Chief Security Officer",
+          "value": "chief_security_officer"
+        },
+        {
+          "label": "Chief Experience Officer",
+          "value": "chief_experience_officer"
+        },
+        {
+          "label": "Chief Innovation Officer",
+          "value": "chief_innovation_officer"
+        },
+        {
+          "label": "Retail",
+          "value": "retail"
+        },
+        {
+          "label": "Retired",
+          "value": "retired"
+        }
+      ]
+    },
+    {
+      "name": "hs_timezone",
+      "label": "Time Zone",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "UTC -11:00 Pacific Midway",
+          "value": "pacific_slash_midway"
+        },
+        {
+          "label": "UTC -11:00 Pacific Niue",
+          "value": "pacific_slash_niue"
+        },
+        {
+          "label": "UTC -11:00 Pacific Pago Pago",
+          "value": "pacific_slash_pago_pago"
+        },
+        {
+          "label": "UTC -11:00 Pacific Samoa",
+          "value": "pacific_slash_samoa"
+        },
+        {
+          "label": "UTC -11:00 US Samoa",
+          "value": "us_slash_samoa"
+        },
+        {
+          "label": "UTC -10:00 Pacific Honolulu",
+          "value": "pacific_slash_honolulu"
+        },
+        {
+          "label": "UTC -10:00 Pacific Johnston",
+          "value": "pacific_slash_johnston"
+        },
+        {
+          "label": "UTC -10:00 Pacific Rarotonga",
+          "value": "pacific_slash_rarotonga"
+        },
+        {
+          "label": "UTC -10:00 Pacific Tahiti",
+          "value": "pacific_slash_tahiti"
+        },
+        {
+          "label": "UTC -10:00 US Hawaii",
+          "value": "us_slash_hawaii"
+        },
+        {
+          "label": "UTC -09:30 Pacific Marquesas",
+          "value": "pacific_slash_marquesas"
+        },
+        {
+          "label": "UTC -09:00 America Adak",
+          "value": "america_slash_adak"
+        },
+        {
+          "label": "UTC -09:00 America Atka",
+          "value": "america_slash_atka"
+        },
+        {
+          "label": "UTC -09:00 Pacific Gambier",
+          "value": "pacific_slash_gambier"
+        },
+        {
+          "label": "UTC -09:00 US Aleutian",
+          "value": "us_slash_aleutian"
+        },
+        {
+          "label": "UTC -08:00 America Anchorage",
+          "value": "america_slash_anchorage"
+        },
+        {
+          "label": "UTC -08:00 America Juneau",
+          "value": "america_slash_juneau"
+        },
+        {
+          "label": "UTC -08:00 America Metlakatla",
+          "value": "america_slash_metlakatla"
+        },
+        {
+          "label": "UTC -08:00 America Nome",
+          "value": "america_slash_nome"
+        },
+        {
+          "label": "UTC -08:00 America Sitka",
+          "value": "america_slash_sitka"
+        },
+        {
+          "label": "UTC -08:00 America Yakutat",
+          "value": "america_slash_yakutat"
+        },
+        {
+          "label": "UTC -08:00 Pacific Pitcairn",
+          "value": "pacific_slash_pitcairn"
+        },
+        {
+          "label": "UTC -08:00 US Alaska",
+          "value": "us_slash_alaska"
+        },
+        {
+          "label": "UTC -07:00 America Creston",
+          "value": "america_slash_creston"
+        },
+        {
+          "label": "UTC -07:00 America Dawson",
+          "value": "america_slash_dawson"
+        },
+        {
+          "label": "UTC -07:00 America Dawson Creek",
+          "value": "america_slash_dawson_creek"
+        },
+        {
+          "label": "UTC -07:00 America Ensenada",
+          "value": "america_slash_ensenada"
+        },
+        {
+          "label": "UTC -07:00 America Fort Nelson",
+          "value": "america_slash_fort_nelson"
+        },
+        {
+          "label": "UTC -07:00 America Hermosillo",
+          "value": "america_slash_hermosillo"
+        },
+        {
+          "label": "UTC -07:00 America Los Angeles",
+          "value": "america_slash_los_angeles"
+        },
+        {
+          "label": "UTC -07:00 America Phoenix",
+          "value": "america_slash_phoenix"
+        },
+        {
+          "label": "UTC -07:00 America Santa Isabel",
+          "value": "america_slash_santa_isabel"
+        },
+        {
+          "label": "UTC -07:00 America Tijuana",
+          "value": "america_slash_tijuana"
+        },
+        {
+          "label": "UTC -07:00 America Vancouver",
+          "value": "america_slash_vancouver"
+        },
+        {
+          "label": "UTC -07:00 America Whitehorse",
+          "value": "america_slash_whitehorse"
+        },
+        {
+          "label": "UTC -07:00 Canada Pacific",
+          "value": "canada_slash_pacific"
+        },
+        {
+          "label": "UTC -07:00 Canada Yukon",
+          "value": "canada_slash_yukon"
+        },
+        {
+          "label": "UTC -07:00 Mexico BajaNorte",
+          "value": "mexico_slash_bajanorte"
+        },
+        {
+          "label": "UTC -07:00 US Arizona",
+          "value": "us_slash_arizona"
+        },
+        {
+          "label": "UTC -07:00 US Pacific",
+          "value": "us_slash_pacific"
+        },
+        {
+          "label": "UTC -07:00 US Pacific-New",
+          "value": "us_slash_pacific_hyphen_new"
+        },
+        {
+          "label": "UTC -06:00 America Belize",
+          "value": "america_slash_belize"
+        },
+        {
+          "label": "UTC -06:00 America Boise",
+          "value": "america_slash_boise"
+        },
+        {
+          "label": "UTC -06:00 America Cambridge Bay",
+          "value": "america_slash_cambridge_bay"
+        },
+        {
+          "label": "UTC -06:00 America Chihuahua",
+          "value": "america_slash_chihuahua"
+        },
+        {
+          "label": "UTC -06:00 America Costa Rica",
+          "value": "america_slash_costa_rica"
+        },
+        {
+          "label": "UTC -06:00 America Denver",
+          "value": "america_slash_denver"
+        },
+        {
+          "label": "UTC -06:00 America Edmonton",
+          "value": "america_slash_edmonton"
+        },
+        {
+          "label": "UTC -06:00 America El Salvador",
+          "value": "america_slash_el_salvador"
+        },
+        {
+          "label": "UTC -06:00 America Guatemala",
+          "value": "america_slash_guatemala"
+        },
+        {
+          "label": "UTC -06:00 America Inuvik",
+          "value": "america_slash_inuvik"
+        },
+        {
+          "label": "UTC -06:00 America Managua",
+          "value": "america_slash_managua"
+        },
+        {
+          "label": "UTC -06:00 America Mazatlan",
+          "value": "america_slash_mazatlan"
+        },
+        {
+          "label": "UTC -06:00 America Navajo",
+          "value": "navajo"
+        },
+        {
+          "label": "UTC -06:00 America Ojinaga",
+          "value": "america_slash_ojinaga"
+        },
+        {
+          "label": "UTC -06:00 America Regina",
+          "value": "america_slash_regina"
+        },
+        {
+          "label": "UTC -06:00 America Shiprock",
+          "value": "america_slash_shiprock"
+        },
+        {
+          "label": "UTC -06:00 America Swift Current",
+          "value": "america_slash_swift_current"
+        },
+        {
+          "label": "UTC -06:00 America Tegucigalpa",
+          "value": "america_slash_tegucigalpa"
+        },
+        {
+          "label": "UTC -06:00 America Yellowknife",
+          "value": "america_slash_yellowknife"
+        },
+        {
+          "label": "UTC -06:00 Canada Mountain",
+          "value": "canada_slash_mountain"
+        },
+        {
+          "label": "UTC -06:00 Canada Saskatchewan",
+          "value": "canada_slash_saskatchewan"
+        },
+        {
+          "label": "UTC -06:00 Chile EasterIsland",
+          "value": "chile_slash_easterisland"
+        },
+        {
+          "label": "UTC -06:00 Mexico BajaSur",
+          "value": "mexico_slash_bajasur"
+        },
+        {
+          "label": "UTC -06:00 Pacific Easter",
+          "value": "pacific_slash_easter"
+        },
+        {
+          "label": "UTC -06:00 Pacific Galapagos",
+          "value": "pacific_slash_galapagos"
+        },
+        {
+          "label": "UTC -06:00 US Mountain",
+          "value": "us_slash_mountain"
+        },
+        {
+          "label": "UTC -05:00 America Atikokan",
+          "value": "america_slash_atikokan"
+        },
+        {
+          "label": "UTC -05:00 America Bahia Banderas",
+          "value": "america_slash_bahia_banderas"
+        },
+        {
+          "label": "UTC -05:00 America Bogota",
+          "value": "america_slash_bogota"
+        },
+        {
+          "label": "UTC -05:00 America Cancun",
+          "value": "america_slash_cancun"
+        },
+        {
+          "label": "UTC -05:00 America Cayman",
+          "value": "america_slash_cayman"
+        },
+        {
+          "label": "UTC -05:00 America Chicago",
+          "value": "america_slash_chicago"
+        },
+        {
+          "label": "UTC -05:00 America Coral Harbour",
+          "value": "america_slash_coral_harbour"
+        },
+        {
+          "label": "UTC -05:00 America Eirunepe",
+          "value": "america_slash_eirunepe"
+        },
+        {
+          "label": "UTC -05:00 America Guayaquil",
+          "value": "america_slash_guayaquil"
+        },
+        {
+          "label": "UTC -05:00 America Indiana (Knox)",
+          "value": "america_slash_indiana_slash_knox"
+        },
+        {
+          "label": "UTC -05:00 America Indiana (Tell City)",
+          "value": "america_slash_indiana_slash_tell_city"
+        },
+        {
+          "label": "UTC -05:00 America Jamaica",
+          "value": "america_slash_jamaica"
+        },
+        {
+          "label": "UTC -05:00 America Knox IN",
+          "value": "america_slash_knox_in"
+        },
+        {
+          "label": "UTC -05:00 America Lima",
+          "value": "america_slash_lima"
+        },
+        {
+          "label": "UTC -05:00 America Matamoros",
+          "value": "america_slash_matamoros"
+        },
+        {
+          "label": "UTC -05:00 America Menominee",
+          "value": "america_slash_menominee"
+        },
+        {
+          "label": "UTC -05:00 America Merida",
+          "value": "america_slash_merida"
+        },
+        {
+          "label": "UTC -05:00 America Mexico City",
+          "value": "america_slash_mexico_city"
+        },
+        {
+          "label": "UTC -05:00 America Monterrey",
+          "value": "america_slash_monterrey"
+        },
+        {
+          "label": "UTC -05:00 America North Dakota (Beulah)",
+          "value": "america_slash_north_dakota_slash_beulah"
+        },
+        {
+          "label": "UTC -05:00 America North Dakota (Center)",
+          "value": "america_slash_north_dakota_slash_center"
+        },
+        {
+          "label": "UTC -05:00 America North Dakota (New Salem)",
+          "value": "america_slash_north_dakota_slash_new_salem"
+        },
+        {
+          "label": "UTC -05:00 America Panama",
+          "value": "america_slash_panama"
+        },
+        {
+          "label": "UTC -05:00 America Porto Acre",
+          "value": "america_slash_porto_acre"
+        },
+        {
+          "label": "UTC -05:00 America Rainy River",
+          "value": "america_slash_rainy_river"
+        },
+        {
+          "label": "UTC -05:00 America Rankin Inlet",
+          "value": "america_slash_rankin_inlet"
+        },
+        {
+          "label": "UTC -05:00 America Resolute",
+          "value": "america_slash_resolute"
+        },
+        {
+          "label": "UTC -05:00 America Rio Branco",
+          "value": "america_slash_rio_branco"
+        },
+        {
+          "label": "UTC -05:00 America Winnipeg",
+          "value": "america_slash_winnipeg"
+        },
+        {
+          "label": "UTC -05:00 Brazil Acre",
+          "value": "brazil_slash_acre"
+        },
+        {
+          "label": "UTC -05:00 Canada Central",
+          "value": "canada_slash_central"
+        },
+        {
+          "label": "UTC -05:00 Mexico General",
+          "value": "mexico_slash_general"
+        },
+        {
+          "label": "UTC -05:00 US Central",
+          "value": "us_slash_central"
+        },
+        {
+          "label": "UTC -05:00 US Indiana-Starke",
+          "value": "us_slash_indiana_hyphen_starke"
+        },
+        {
+          "label": "UTC -04:00 America Anguilla",
+          "value": "america_slash_anguilla"
+        },
+        {
+          "label": "UTC -04:00 America Antigua",
+          "value": "america_slash_antigua"
+        },
+        {
+          "label": "UTC -04:00 America Aruba",
+          "value": "america_slash_aruba"
+        },
+        {
+          "label": "UTC -04:00 America Asuncion",
+          "value": "america_slash_asuncion"
+        },
+        {
+          "label": "UTC -04:00 America Barbados",
+          "value": "america_slash_barbados"
+        },
+        {
+          "label": "UTC -04:00 America Blanc-Sablon",
+          "value": "america_slash_blanc_hyphen_sablon"
+        },
+        {
+          "label": "UTC -04:00 America Boa Vista",
+          "value": "america_slash_boa_vista"
+        },
+        {
+          "label": "UTC -04:00 America Campo Grande",
+          "value": "america_slash_campo_grande"
+        },
+        {
+          "label": "UTC -04:00 America Caracas",
+          "value": "america_slash_caracas"
+        },
+        {
+          "label": "UTC -04:00 America Cuba",
+          "value": "cuba"
+        },
+        {
+          "label": "UTC -04:00 America Cuiaba",
+          "value": "america_slash_cuiaba"
+        },
+        {
+          "label": "UTC -04:00 America Curacao",
+          "value": "america_slash_curacao"
+        },
+        {
+          "label": "UTC -04:00 America Detroit",
+          "value": "america_slash_detroit"
+        },
+        {
+          "label": "UTC -04:00 America Dominica",
+          "value": "america_slash_dominica"
+        },
+        {
+          "label": "UTC -04:00 America Fort Wayne",
+          "value": "america_slash_fort_wayne"
+        },
+        {
+          "label": "UTC -04:00 America Grand Turk",
+          "value": "america_slash_grand_turk"
+        },
+        {
+          "label": "UTC -04:00 America Grenada",
+          "value": "america_slash_grenada"
+        },
+        {
+          "label": "UTC -04:00 America Guadeloupe",
+          "value": "america_slash_guadeloupe"
+        },
+        {
+          "label": "UTC -04:00 America Guyana",
+          "value": "america_slash_guyana"
+        },
+        {
+          "label": "UTC -04:00 America Havana",
+          "value": "america_slash_havana"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Indianapolis)",
+          "value": "america_slash_indiana_slash_indianapolis"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Marengo)",
+          "value": "america_slash_indiana_slash_marengo"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Petersburg)",
+          "value": "america_slash_indiana_slash_petersburg"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Vevay)",
+          "value": "america_slash_indiana_slash_vevay"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Vincennes)",
+          "value": "america_slash_indiana_slash_vincennes"
+        },
+        {
+          "label": "UTC -04:00 America Indiana (Winamac)",
+          "value": "america_slash_indiana_slash_winamac"
+        },
+        {
+          "label": "UTC -04:00 America Indianapolis",
+          "value": "america_slash_indianapolis"
+        },
+        {
+          "label": "UTC -04:00 America Iqaluit",
+          "value": "america_slash_iqaluit"
+        },
+        {
+          "label": "UTC -04:00 America Kentucky (Louisville)",
+          "value": "america_slash_kentucky_slash_louisville"
+        },
+        {
+          "label": "UTC -04:00 America Kentucky (Monticello)",
+          "value": "america_slash_kentucky_slash_monticello"
+        },
+        {
+          "label": "UTC -04:00 America Kralendijk",
+          "value": "america_slash_kralendijk"
+        },
+        {
+          "label": "UTC -04:00 America La Paz",
+          "value": "america_slash_la_paz"
+        },
+        {
+          "label": "UTC -04:00 America Louisville",
+          "value": "america_slash_louisville"
+        },
+        {
+          "label": "UTC -04:00 America Lower Princes",
+          "value": "america_slash_lower_princes"
+        },
+        {
+          "label": "UTC -04:00 America Manaus",
+          "value": "america_slash_manaus"
+        },
+        {
+          "label": "UTC -04:00 America Marigot",
+          "value": "america_slash_marigot"
+        },
+        {
+          "label": "UTC -04:00 America Martinique",
+          "value": "america_slash_martinique"
+        },
+        {
+          "label": "UTC -04:00 America Montreal",
+          "value": "america_slash_montreal"
+        },
+        {
+          "label": "UTC -04:00 America Montserrat",
+          "value": "america_slash_montserrat"
+        },
+        {
+          "label": "UTC -04:00 America Nassau",
+          "value": "america_slash_nassau"
+        },
+        {
+          "label": "UTC -04:00 America New York",
+          "value": "america_slash_new_york"
+        },
+        {
+          "label": "UTC -04:00 America Nipigon",
+          "value": "america_slash_nipigon"
+        },
+        {
+          "label": "UTC -04:00 America Pangnirtung",
+          "value": "america_slash_pangnirtung"
+        },
+        {
+          "label": "UTC -04:00 America Port of Spain",
+          "value": "america_slash_port_of_spain"
+        },
+        {
+          "label": "UTC -04:00 America Port-au-Prince",
+          "value": "america_slash_port_hyphen_au_hyphen_prince"
+        },
+        {
+          "label": "UTC -04:00 America Porto Velho",
+          "value": "america_slash_porto_velho"
+        },
+        {
+          "label": "UTC -04:00 America Puerto Rico",
+          "value": "america_slash_puerto_rico"
+        },
+        {
+          "label": "UTC -04:00 America Santiago",
+          "value": "america_slash_santiago"
+        },
+        {
+          "label": "UTC -04:00 America Santo Domingo",
+          "value": "america_slash_santo_domingo"
+        },
+        {
+          "label": "UTC -04:00 America St Barthelemy",
+          "value": "america_slash_st_barthelemy"
+        },
+        {
+          "label": "UTC -04:00 America St Kitts",
+          "value": "america_slash_st_kitts"
+        },
+        {
+          "label": "UTC -04:00 America St Lucia",
+          "value": "america_slash_st_lucia"
+        },
+        {
+          "label": "UTC -04:00 America St Thomas",
+          "value": "america_slash_st_thomas"
+        },
+        {
+          "label": "UTC -04:00 America St Vincent",
+          "value": "america_slash_st_vincent"
+        },
+        {
+          "label": "UTC -04:00 America Thunder Bay",
+          "value": "america_slash_thunder_bay"
+        },
+        {
+          "label": "UTC -04:00 America Toronto",
+          "value": "america_slash_toronto"
+        },
+        {
+          "label": "UTC -04:00 America Tortola",
+          "value": "america_slash_tortola"
+        },
+        {
+          "label": "UTC -04:00 America Virgin",
+          "value": "america_slash_virgin"
+        },
+        {
+          "label": "UTC -04:00 Brazil West",
+          "value": "brazil_slash_west"
+        },
+        {
+          "label": "UTC -04:00 Canada Eastern",
+          "value": "canada_slash_eastern"
+        },
+        {
+          "label": "UTC -04:00 Chile Continental",
+          "value": "chile_slash_continental"
+        },
+        {
+          "label": "UTC -04:00 US East-Indiana",
+          "value": "us_slash_east_hyphen_indiana"
+        },
+        {
+          "label": "UTC -04:00 US Eastern",
+          "value": "us_slash_eastern"
+        },
+        {
+          "label": "UTC -04:00 US Michigan",
+          "value": "us_slash_michigan"
+        },
+        {
+          "label": "UTC -03:00 America Araguaina",
+          "value": "america_slash_araguaina"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Buenos Aires)",
+          "value": "america_slash_argentina_slash_buenos_aires"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Catamarca)",
+          "value": "america_slash_argentina_slash_catamarca"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (ComodRivadavia)",
+          "value": "america_slash_argentina_slash_comodrivadavia"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Cordoba)",
+          "value": "america_slash_argentina_slash_cordoba"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Jujuy)",
+          "value": "america_slash_argentina_slash_jujuy"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (La Rioja)",
+          "value": "america_slash_argentina_slash_la_rioja"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Mendoza)",
+          "value": "america_slash_argentina_slash_mendoza"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Rio Gallegos)",
+          "value": "america_slash_argentina_slash_rio_gallegos"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Salta)",
+          "value": "america_slash_argentina_slash_salta"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (San Juan)",
+          "value": "america_slash_argentina_slash_san_juan"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (San Luis)",
+          "value": "america_slash_argentina_slash_san_luis"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Tucuman)",
+          "value": "america_slash_argentina_slash_tucuman"
+        },
+        {
+          "label": "UTC -03:00 America Argentina (Ushuaia)",
+          "value": "america_slash_argentina_slash_ushuaia"
+        },
+        {
+          "label": "UTC -03:00 America Bahia",
+          "value": "america_slash_bahia"
+        },
+        {
+          "label": "UTC -03:00 America Belem",
+          "value": "america_slash_belem"
+        },
+        {
+          "label": "UTC -03:00 America Buenos Aires",
+          "value": "america_slash_buenos_aires"
+        },
+        {
+          "label": "UTC -03:00 America Catamarca",
+          "value": "america_slash_catamarca"
+        },
+        {
+          "label": "UTC -03:00 America Cayenne",
+          "value": "america_slash_cayenne"
+        },
+        {
+          "label": "UTC -03:00 America Cordoba",
+          "value": "america_slash_cordoba"
+        },
+        {
+          "label": "UTC -03:00 America Fortaleza",
+          "value": "america_slash_fortaleza"
+        },
+        {
+          "label": "UTC -03:00 America Glace Bay",
+          "value": "america_slash_glace_bay"
+        },
+        {
+          "label": "UTC -03:00 America Goose Bay",
+          "value": "america_slash_goose_bay"
+        },
+        {
+          "label": "UTC -03:00 America Halifax",
+          "value": "america_slash_halifax"
+        },
+        {
+          "label": "UTC -03:00 America Jujuy",
+          "value": "america_slash_jujuy"
+        },
+        {
+          "label": "UTC -03:00 America Maceio",
+          "value": "america_slash_maceio"
+        },
+        {
+          "label": "UTC -03:00 America Mendoza",
+          "value": "america_slash_mendoza"
+        },
+        {
+          "label": "UTC -03:00 America Moncton",
+          "value": "america_slash_moncton"
+        },
+        {
+          "label": "UTC -03:00 America Montevideo",
+          "value": "america_slash_montevideo"
+        },
+        {
+          "label": "UTC -03:00 America Paramaribo",
+          "value": "america_slash_paramaribo"
+        },
+        {
+          "label": "UTC -03:00 America Punta Arenas",
+          "value": "america_slash_punta_arenas"
+        },
+        {
+          "label": "UTC -03:00 America Recife",
+          "value": "america_slash_recife"
+        },
+        {
+          "label": "UTC -03:00 America Rosario",
+          "value": "america_slash_rosario"
+        },
+        {
+          "label": "UTC -03:00 America Santarem",
+          "value": "america_slash_santarem"
+        },
+        {
+          "label": "UTC -03:00 America Sao Paulo",
+          "value": "america_slash_sao_paulo"
+        },
+        {
+          "label": "UTC -03:00 America Thule",
+          "value": "america_slash_thule"
+        },
+        {
+          "label": "UTC -03:00 Antarctica Palmer",
+          "value": "antarctica_slash_palmer"
+        },
+        {
+          "label": "UTC -03:00 Antarctica Rothera",
+          "value": "antarctica_slash_rothera"
+        },
+        {
+          "label": "UTC -03:00 Atlantic Bermuda",
+          "value": "atlantic_slash_bermuda"
+        },
+        {
+          "label": "UTC -03:00 Atlantic Stanley",
+          "value": "atlantic_slash_stanley"
+        },
+        {
+          "label": "UTC -03:00 Brazil East",
+          "value": "brazil_slash_east"
+        },
+        {
+          "label": "UTC -03:00 Canada Atlantic",
+          "value": "canada_slash_atlantic"
+        },
+        {
+          "label": "UTC -02:30 America St Johns",
+          "value": "america_slash_st_johns"
+        },
+        {
+          "label": "UTC -02:30 Canada Newfoundland",
+          "value": "canada_slash_newfoundland"
+        },
+        {
+          "label": "UTC -02:00 America Godthab",
+          "value": "america_slash_godthab"
+        },
+        {
+          "label": "UTC -02:00 America Miquelon",
+          "value": "america_slash_miquelon"
+        },
+        {
+          "label": "UTC -02:00 America Noronha",
+          "value": "america_slash_noronha"
+        },
+        {
+          "label": "UTC -02:00 Atlantic South Georgia",
+          "value": "atlantic_slash_south_georgia"
+        },
+        {
+          "label": "UTC -02:00 Brazil DeNoronha",
+          "value": "brazil_slash_denoronha"
+        },
+        {
+          "label": "UTC -01:00 Atlantic Cape Verde",
+          "value": "atlantic_slash_cape_verde"
+        },
+        {
+          "label": "UTC +00:00 Africa Abidjan",
+          "value": "africa_slash_abidjan"
+        },
+        {
+          "label": "UTC +00:00 Africa Accra",
+          "value": "africa_slash_accra"
+        },
+        {
+          "label": "UTC +00:00 Africa Bamako",
+          "value": "africa_slash_bamako"
+        },
+        {
+          "label": "UTC +00:00 Africa Banjul",
+          "value": "africa_slash_banjul"
+        },
+        {
+          "label": "UTC +00:00 Africa Bissau",
+          "value": "africa_slash_bissau"
+        },
+        {
+          "label": "UTC +00:00 Africa Conakry",
+          "value": "africa_slash_conakry"
+        },
+        {
+          "label": "UTC +00:00 Africa Dakar",
+          "value": "africa_slash_dakar"
+        },
+        {
+          "label": "UTC +00:00 Africa Freetown",
+          "value": "africa_slash_freetown"
+        },
+        {
+          "label": "UTC +00:00 Africa Lome",
+          "value": "africa_slash_lome"
+        },
+        {
+          "label": "UTC +00:00 Africa Monrovia",
+          "value": "africa_slash_monrovia"
+        },
+        {
+          "label": "UTC +00:00 Africa Nouakchott",
+          "value": "africa_slash_nouakchott"
+        },
+        {
+          "label": "UTC +00:00 Africa Ouagadougou",
+          "value": "africa_slash_ouagadougou"
+        },
+        {
+          "label": "UTC +00:00 Africa Timbuktu",
+          "value": "africa_slash_timbuktu"
+        },
+        {
+          "label": "UTC +00:00 America Danmarkshavn",
+          "value": "america_slash_danmarkshavn"
+        },
+        {
+          "label": "UTC +00:00 America Scoresbysund",
+          "value": "america_slash_scoresbysund"
+        },
+        {
+          "label": "UTC +00:00 Atlantic Azores",
+          "value": "atlantic_slash_azores"
+        },
+        {
+          "label": "UTC +00:00 Atlantic Reykjavik",
+          "value": "atlantic_slash_reykjavik"
+        },
+        {
+          "label": "UTC +00:00 Atlantic St Helena",
+          "value": "atlantic_slash_st_helena"
+        },
+        {
+          "label": "UTC +00:00 Europe Iceland",
+          "value": "iceland"
+        },
+        {
+          "label": "UTC +01:00 Africa Algiers",
+          "value": "africa_slash_algiers"
+        },
+        {
+          "label": "UTC +01:00 Africa Bangui",
+          "value": "africa_slash_bangui"
+        },
+        {
+          "label": "UTC +01:00 Africa Brazzaville",
+          "value": "africa_slash_brazzaville"
+        },
+        {
+          "label": "UTC +01:00 Africa Casablanca",
+          "value": "africa_slash_casablanca"
+        },
+        {
+          "label": "UTC +01:00 Africa Douala",
+          "value": "africa_slash_douala"
+        },
+        {
+          "label": "UTC +01:00 Africa El Aaiun",
+          "value": "africa_slash_el_aaiun"
+        },
+        {
+          "label": "UTC +01:00 Africa Kinshasa",
+          "value": "africa_slash_kinshasa"
+        },
+        {
+          "label": "UTC +01:00 Africa Lagos",
+          "value": "africa_slash_lagos"
+        },
+        {
+          "label": "UTC +01:00 Africa Libreville",
+          "value": "africa_slash_libreville"
+        },
+        {
+          "label": "UTC +01:00 Africa Luanda",
+          "value": "africa_slash_luanda"
+        },
+        {
+          "label": "UTC +01:00 Africa Malabo",
+          "value": "africa_slash_malabo"
+        },
+        {
+          "label": "UTC +01:00 Africa Ndjamena",
+          "value": "africa_slash_ndjamena"
+        },
+        {
+          "label": "UTC +01:00 Africa Niamey",
+          "value": "africa_slash_niamey"
+        },
+        {
+          "label": "UTC +01:00 Africa Porto-Novo",
+          "value": "africa_slash_porto_hyphen_novo"
+        },
+        {
+          "label": "UTC +01:00 Africa Sao Tome",
+          "value": "africa_slash_sao_tome"
+        },
+        {
+          "label": "UTC +01:00 Africa Tunis",
+          "value": "africa_slash_tunis"
+        },
+        {
+          "label": "UTC +01:00 Atlantic Canary",
+          "value": "atlantic_slash_canary"
+        },
+        {
+          "label": "UTC +01:00 Atlantic Faeroe",
+          "value": "atlantic_slash_faeroe"
+        },
+        {
+          "label": "UTC +01:00 Atlantic Faroe",
+          "value": "atlantic_slash_faroe"
+        },
+        {
+          "label": "UTC +01:00 Atlantic Madeira",
+          "value": "atlantic_slash_madeira"
+        },
+        {
+          "label": "UTC +01:00 Europe Belfast",
+          "value": "europe_slash_belfast"
+        },
+        {
+          "label": "UTC +01:00 Europe Dublin",
+          "value": "europe_slash_dublin"
+        },
+        {
+          "label": "UTC +01:00 Europe Eire",
+          "value": "eire"
+        },
+        {
+          "label": "UTC +01:00 Europe Guernsey",
+          "value": "europe_slash_guernsey"
+        },
+        {
+          "label": "UTC +01:00 Europe Isle of Man",
+          "value": "europe_slash_isle_of_man"
+        },
+        {
+          "label": "UTC +01:00 Europe Jersey",
+          "value": "europe_slash_jersey"
+        },
+        {
+          "label": "UTC +01:00 Europe Lisbon",
+          "value": "europe_slash_lisbon"
+        },
+        {
+          "label": "UTC +01:00 Europe London",
+          "value": "europe_slash_london"
+        },
+        {
+          "label": "UTC +01:00 Europe Portugal",
+          "value": "portugal"
+        },
+        {
+          "label": "UTC +02:00 Africa Blantyre",
+          "value": "africa_slash_blantyre"
+        },
+        {
+          "label": "UTC +02:00 Africa Bujumbura",
+          "value": "africa_slash_bujumbura"
+        },
+        {
+          "label": "UTC +02:00 Africa Cairo",
+          "value": "africa_slash_cairo"
+        },
+        {
+          "label": "UTC +02:00 Africa Ceuta",
+          "value": "africa_slash_ceuta"
+        },
+        {
+          "label": "UTC +02:00 Africa Egypt",
+          "value": "egypt"
+        },
+        {
+          "label": "UTC +02:00 Africa Gaborone",
+          "value": "africa_slash_gaborone"
+        },
+        {
+          "label": "UTC +02:00 Africa Harare",
+          "value": "africa_slash_harare"
+        },
+        {
+          "label": "UTC +02:00 Africa Johannesburg",
+          "value": "africa_slash_johannesburg"
+        },
+        {
+          "label": "UTC +02:00 Africa Khartoum",
+          "value": "africa_slash_khartoum"
+        },
+        {
+          "label": "UTC +02:00 Africa Kigali",
+          "value": "africa_slash_kigali"
+        },
+        {
+          "label": "UTC +02:00 Africa Libya",
+          "value": "libya"
+        },
+        {
+          "label": "UTC +02:00 Africa Lubumbashi",
+          "value": "africa_slash_lubumbashi"
+        },
+        {
+          "label": "UTC +02:00 Africa Lusaka",
+          "value": "africa_slash_lusaka"
+        },
+        {
+          "label": "UTC +02:00 Africa Maputo",
+          "value": "africa_slash_maputo"
+        },
+        {
+          "label": "UTC +02:00 Africa Maseru",
+          "value": "africa_slash_maseru"
+        },
+        {
+          "label": "UTC +02:00 Africa Mbabane",
+          "value": "africa_slash_mbabane"
+        },
+        {
+          "label": "UTC +02:00 Africa Tripoli",
+          "value": "africa_slash_tripoli"
+        },
+        {
+          "label": "UTC +02:00 Africa Windhoek",
+          "value": "africa_slash_windhoek"
+        },
+        {
+          "label": "UTC +02:00 Antarctica Troll",
+          "value": "antarctica_slash_troll"
+        },
+        {
+          "label": "UTC +02:00 Arctic Longyearbyen",
+          "value": "arctic_slash_longyearbyen"
+        },
+        {
+          "label": "UTC +02:00 Atlantic Jan Mayen",
+          "value": "atlantic_slash_jan_mayen"
+        },
+        {
+          "label": "UTC +02:00 Europe Amsterdam",
+          "value": "europe_slash_amsterdam"
+        },
+        {
+          "label": "UTC +02:00 Europe Andorra",
+          "value": "europe_slash_andorra"
+        },
+        {
+          "label": "UTC +02:00 Europe Belgrade",
+          "value": "europe_slash_belgrade"
+        },
+        {
+          "label": "UTC +02:00 Europe Berlin",
+          "value": "europe_slash_berlin"
+        },
+        {
+          "label": "UTC +02:00 Europe Bratislava",
+          "value": "europe_slash_bratislava"
+        },
+        {
+          "label": "UTC +02:00 Europe Brussels",
+          "value": "europe_slash_brussels"
+        },
+        {
+          "label": "UTC +02:00 Europe Budapest",
+          "value": "europe_slash_budapest"
+        },
+        {
+          "label": "UTC +02:00 Europe Busingen",
+          "value": "europe_slash_busingen"
+        },
+        {
+          "label": "UTC +02:00 Europe Copenhagen",
+          "value": "europe_slash_copenhagen"
+        },
+        {
+          "label": "UTC +02:00 Europe Gibraltar",
+          "value": "europe_slash_gibraltar"
+        },
+        {
+          "label": "UTC +02:00 Europe Kaliningrad",
+          "value": "europe_slash_kaliningrad"
+        },
+        {
+          "label": "UTC +02:00 Europe Ljubljana",
+          "value": "europe_slash_ljubljana"
+        },
+        {
+          "label": "UTC +02:00 Europe Luxembourg",
+          "value": "europe_slash_luxembourg"
+        },
+        {
+          "label": "UTC +02:00 Europe Madrid",
+          "value": "europe_slash_madrid"
+        },
+        {
+          "label": "UTC +02:00 Europe Malta",
+          "value": "europe_slash_malta"
+        },
+        {
+          "label": "UTC +02:00 Europe Monaco",
+          "value": "europe_slash_monaco"
+        },
+        {
+          "label": "UTC +02:00 Europe Oslo",
+          "value": "europe_slash_oslo"
+        },
+        {
+          "label": "UTC +02:00 Europe Paris",
+          "value": "europe_slash_paris"
+        },
+        {
+          "label": "UTC +02:00 Europe Podgorica",
+          "value": "europe_slash_podgorica"
+        },
+        {
+          "label": "UTC +02:00 Europe Poland",
+          "value": "poland"
+        },
+        {
+          "label": "UTC +02:00 Europe Prague",
+          "value": "europe_slash_prague"
+        },
+        {
+          "label": "UTC +02:00 Europe Rome",
+          "value": "europe_slash_rome"
+        },
+        {
+          "label": "UTC +02:00 Europe San Marino",
+          "value": "europe_slash_san_marino"
+        },
+        {
+          "label": "UTC +02:00 Europe Sarajevo",
+          "value": "europe_slash_sarajevo"
+        },
+        {
+          "label": "UTC +02:00 Europe Skopje",
+          "value": "europe_slash_skopje"
+        },
+        {
+          "label": "UTC +02:00 Europe Stockholm",
+          "value": "europe_slash_stockholm"
+        },
+        {
+          "label": "UTC +02:00 Europe Tirane",
+          "value": "europe_slash_tirane"
+        },
+        {
+          "label": "UTC +02:00 Europe Vaduz",
+          "value": "europe_slash_vaduz"
+        },
+        {
+          "label": "UTC +02:00 Europe Vatican",
+          "value": "europe_slash_vatican"
+        },
+        {
+          "label": "UTC +02:00 Europe Vienna",
+          "value": "europe_slash_vienna"
+        },
+        {
+          "label": "UTC +02:00 Europe Warsaw",
+          "value": "europe_slash_warsaw"
+        },
+        {
+          "label": "UTC +02:00 Europe Zagreb",
+          "value": "europe_slash_zagreb"
+        },
+        {
+          "label": "UTC +02:00 Europe Zurich",
+          "value": "europe_slash_zurich"
+        },
+        {
+          "label": "UTC +03:00 Africa Addis Ababa",
+          "value": "africa_slash_addis_ababa"
+        },
+        {
+          "label": "UTC +03:00 Africa Asmara",
+          "value": "africa_slash_asmara"
+        },
+        {
+          "label": "UTC +03:00 Africa Asmera",
+          "value": "africa_slash_asmera"
+        },
+        {
+          "label": "UTC +03:00 Africa Dar es Salaam",
+          "value": "africa_slash_dar_es_salaam"
+        },
+        {
+          "label": "UTC +03:00 Africa Djibouti",
+          "value": "africa_slash_djibouti"
+        },
+        {
+          "label": "UTC +03:00 Africa Juba",
+          "value": "africa_slash_juba"
+        },
+        {
+          "label": "UTC +03:00 Africa Kampala",
+          "value": "africa_slash_kampala"
+        },
+        {
+          "label": "UTC +03:00 Africa Mogadishu",
+          "value": "africa_slash_mogadishu"
+        },
+        {
+          "label": "UTC +03:00 Africa Nairobi",
+          "value": "africa_slash_nairobi"
+        },
+        {
+          "label": "UTC +03:00 Antarctica Syowa",
+          "value": "antarctica_slash_syowa"
+        },
+        {
+          "label": "UTC +03:00 Asia Aden",
+          "value": "asia_slash_aden"
+        },
+        {
+          "label": "UTC +03:00 Asia Amman",
+          "value": "asia_slash_amman"
+        },
+        {
+          "label": "UTC +03:00 Asia Baghdad",
+          "value": "asia_slash_baghdad"
+        },
+        {
+          "label": "UTC +03:00 Asia Bahrain",
+          "value": "asia_slash_bahrain"
+        },
+        {
+          "label": "UTC +03:00 Asia Beirut",
+          "value": "asia_slash_beirut"
+        },
+        {
+          "label": "UTC +03:00 Asia Damascus",
+          "value": "asia_slash_damascus"
+        },
+        {
+          "label": "UTC +03:00 Asia Famagusta",
+          "value": "asia_slash_famagusta"
+        },
+        {
+          "label": "UTC +03:00 Asia Gaza",
+          "value": "asia_slash_gaza"
+        },
+        {
+          "label": "UTC +03:00 Asia Hebron",
+          "value": "asia_slash_hebron"
+        },
+        {
+          "label": "UTC +03:00 Asia Israel",
+          "value": "israel"
+        },
+        {
+          "label": "UTC +03:00 Asia Istanbul",
+          "value": "asia_slash_istanbul"
+        },
+        {
+          "label": "UTC +03:00 Asia Jerusalem",
+          "value": "asia_slash_jerusalem"
+        },
+        {
+          "label": "UTC +03:00 Asia Kuwait",
+          "value": "asia_slash_kuwait"
+        },
+        {
+          "label": "UTC +03:00 Asia Nicosia",
+          "value": "asia_slash_nicosia"
+        },
+        {
+          "label": "UTC +03:00 Asia Qatar",
+          "value": "asia_slash_qatar"
+        },
+        {
+          "label": "UTC +03:00 Asia Riyadh",
+          "value": "asia_slash_riyadh"
+        },
+        {
+          "label": "UTC +03:00 Asia Tel Aviv",
+          "value": "asia_slash_tel_aviv"
+        },
+        {
+          "label": "UTC +03:00 Asia Türkiye",
+          "value": "turkey"
+        },
+        {
+          "label": "UTC +03:00 Europe Athens",
+          "value": "europe_slash_athens"
+        },
+        {
+          "label": "UTC +03:00 Europe Bucharest",
+          "value": "europe_slash_bucharest"
+        },
+        {
+          "label": "UTC +03:00 Europe Chisinau",
+          "value": "europe_slash_chisinau"
+        },
+        {
+          "label": "UTC +03:00 Europe Helsinki",
+          "value": "europe_slash_helsinki"
+        },
+        {
+          "label": "UTC +03:00 Europe Istanbul",
+          "value": "europe_slash_istanbul"
+        },
+        {
+          "label": "UTC +03:00 Europe Kyiv",
+          "value": "europe_slash_kiev"
+        },
+        {
+          "label": "UTC +03:00 Europe Kirov",
+          "value": "europe_slash_kirov"
+        },
+        {
+          "label": "UTC +03:00 Europe Mariehamn",
+          "value": "europe_slash_mariehamn"
+        },
+        {
+          "label": "UTC +03:00 Europe Minsk",
+          "value": "europe_slash_minsk"
+        },
+        {
+          "label": "UTC +03:00 Europe Moscow",
+          "value": "europe_slash_moscow"
+        },
+        {
+          "label": "UTC +03:00 Europe Nicosia",
+          "value": "europe_slash_nicosia"
+        },
+        {
+          "label": "UTC +03:00 Europe Riga",
+          "value": "europe_slash_riga"
+        },
+        {
+          "label": "UTC +03:00 Europe Simferopol",
+          "value": "europe_slash_simferopol"
+        },
+        {
+          "label": "UTC +03:00 Europe Sofia",
+          "value": "europe_slash_sofia"
+        },
+        {
+          "label": "UTC +03:00 Europe Tallinn",
+          "value": "europe_slash_tallinn"
+        },
+        {
+          "label": "UTC +03:00 Europe Tiraspol",
+          "value": "europe_slash_tiraspol"
+        },
+        {
+          "label": "UTC +03:00 Europe Uzhgorod",
+          "value": "europe_slash_uzhgorod"
+        },
+        {
+          "label": "UTC +03:00 Europe Vilnius",
+          "value": "europe_slash_vilnius"
+        },
+        {
+          "label": "UTC +03:00 Europe Zaporizhzhia",
+          "value": "europe_slash_zaporozhye"
+        },
+        {
+          "label": "UTC +03:00 Indian Antananarivo",
+          "value": "indian_slash_antananarivo"
+        },
+        {
+          "label": "UTC +03:00 Indian Comoro",
+          "value": "indian_slash_comoro"
+        },
+        {
+          "label": "UTC +03:00 Indian Mayotte",
+          "value": "indian_slash_mayotte"
+        },
+        {
+          "label": "UTC +04:00 Asia Baku",
+          "value": "asia_slash_baku"
+        },
+        {
+          "label": "UTC +04:00 Asia Dubai",
+          "value": "asia_slash_dubai"
+        },
+        {
+          "label": "UTC +04:00 Asia Muscat",
+          "value": "asia_slash_muscat"
+        },
+        {
+          "label": "UTC +04:00 Asia Tbilisi",
+          "value": "asia_slash_tbilisi"
+        },
+        {
+          "label": "UTC +04:00 Asia Yerevan",
+          "value": "asia_slash_yerevan"
+        },
+        {
+          "label": "UTC +04:00 Europe Astrakhan",
+          "value": "europe_slash_astrakhan"
+        },
+        {
+          "label": "UTC +04:00 Europe Samara",
+          "value": "europe_slash_samara"
+        },
+        {
+          "label": "UTC +04:00 Europe Saratov",
+          "value": "europe_slash_saratov"
+        },
+        {
+          "label": "UTC +04:00 Europe Ulyanovsk",
+          "value": "europe_slash_ulyanovsk"
+        },
+        {
+          "label": "UTC +04:00 Europe Volgograd",
+          "value": "europe_slash_volgograd"
+        },
+        {
+          "label": "UTC +04:00 Indian Mahe",
+          "value": "indian_slash_mahe"
+        },
+        {
+          "label": "UTC +04:00 Indian Mauritius",
+          "value": "indian_slash_mauritius"
+        },
+        {
+          "label": "UTC +04:00 Indian Reunion",
+          "value": "indian_slash_reunion"
+        },
+        {
+          "label": "UTC +04:30 Asia Iran",
+          "value": "iran"
+        },
+        {
+          "label": "UTC +04:30 Asia Kabul",
+          "value": "asia_slash_kabul"
+        },
+        {
+          "label": "UTC +04:30 Asia Tehran",
+          "value": "asia_slash_tehran"
+        },
+        {
+          "label": "UTC +05:00 Antarctica Mawson",
+          "value": "antarctica_slash_mawson"
+        },
+        {
+          "label": "UTC +05:00 Asia Aqtau",
+          "value": "asia_slash_aqtau"
+        },
+        {
+          "label": "UTC +05:00 Asia Aqtobe",
+          "value": "asia_slash_aqtobe"
+        },
+        {
+          "label": "UTC +05:00 Asia Ashgabat",
+          "value": "asia_slash_ashgabat"
+        },
+        {
+          "label": "UTC +05:00 Asia Ashkhabad",
+          "value": "asia_slash_ashkhabad"
+        },
+        {
+          "label": "UTC +05:00 Asia Atyrau",
+          "value": "asia_slash_atyrau"
+        },
+        {
+          "label": "UTC +05:00 Asia Dushanbe",
+          "value": "asia_slash_dushanbe"
+        },
+        {
+          "label": "UTC +05:00 Asia Karachi",
+          "value": "asia_slash_karachi"
+        },
+        {
+          "label": "UTC +05:00 Asia Oral",
+          "value": "asia_slash_oral"
+        },
+        {
+          "label": "UTC +05:00 Asia Samarkand",
+          "value": "asia_slash_samarkand"
+        },
+        {
+          "label": "UTC +05:00 Asia Tashkent",
+          "value": "asia_slash_tashkent"
+        },
+        {
+          "label": "UTC +05:00 Asia Yekaterinburg",
+          "value": "asia_slash_yekaterinburg"
+        },
+        {
+          "label": "UTC +05:00 Indian Kerguelen",
+          "value": "indian_slash_kerguelen"
+        },
+        {
+          "label": "UTC +05:00 Indian Maldives",
+          "value": "indian_slash_maldives"
+        },
+        {
+          "label": "UTC +05:30 Asia Calcutta",
+          "value": "asia_slash_calcutta"
+        },
+        {
+          "label": "UTC +05:30 Asia Colombo",
+          "value": "asia_slash_colombo"
+        },
+        {
+          "label": "UTC +05:30 Asia Kolkata",
+          "value": "asia_slash_kolkata"
+        },
+        {
+          "label": "UTC +05:45 Asia Kathmandu",
+          "value": "asia_slash_kathmandu"
+        },
+        {
+          "label": "UTC +05:45 Asia Katmandu",
+          "value": "asia_slash_katmandu"
+        },
+        {
+          "label": "UTC +06:00 Antarctica Vostok",
+          "value": "antarctica_slash_vostok"
+        },
+        {
+          "label": "UTC +06:00 Asia Almaty",
+          "value": "asia_slash_almaty"
+        },
+        {
+          "label": "UTC +06:00 Asia Bishkek",
+          "value": "asia_slash_bishkek"
+        },
+        {
+          "label": "UTC +06:00 Asia Dacca",
+          "value": "asia_slash_dacca"
+        },
+        {
+          "label": "UTC +06:00 Asia Dhaka",
+          "value": "asia_slash_dhaka"
+        },
+        {
+          "label": "UTC +06:00 Asia Kashgar",
+          "value": "asia_slash_kashgar"
+        },
+        {
+          "label": "UTC +06:00 Asia Omsk",
+          "value": "asia_slash_omsk"
+        },
+        {
+          "label": "UTC +06:00 Asia Qyzylorda",
+          "value": "asia_slash_qyzylorda"
+        },
+        {
+          "label": "UTC +06:00 Asia Thimbu",
+          "value": "asia_slash_thimbu"
+        },
+        {
+          "label": "UTC +06:00 Asia Thimphu",
+          "value": "asia_slash_thimphu"
+        },
+        {
+          "label": "UTC +06:00 Asia Urumqi",
+          "value": "asia_slash_urumqi"
+        },
+        {
+          "label": "UTC +06:00 Indian Chagos",
+          "value": "indian_slash_chagos"
+        },
+        {
+          "label": "UTC +06:30 Asia Rangoon",
+          "value": "asia_slash_rangoon"
+        },
+        {
+          "label": "UTC +06:30 Asia Yangon",
+          "value": "asia_slash_yangon"
+        },
+        {
+          "label": "UTC +06:30 Indian Cocos",
+          "value": "indian_slash_cocos"
+        },
+        {
+          "label": "UTC +07:00 Antarctica Davis",
+          "value": "antarctica_slash_davis"
+        },
+        {
+          "label": "UTC +07:00 Asia Bangkok",
+          "value": "asia_slash_bangkok"
+        },
+        {
+          "label": "UTC +07:00 Asia Barnaul",
+          "value": "asia_slash_barnaul"
+        },
+        {
+          "label": "UTC +07:00 Asia Ho Chi Minh",
+          "value": "asia_slash_ho_chi_minh"
+        },
+        {
+          "label": "UTC +07:00 Asia Hovd",
+          "value": "asia_slash_hovd"
+        },
+        {
+          "label": "UTC +07:00 Asia Jakarta",
+          "value": "asia_slash_jakarta"
+        },
+        {
+          "label": "UTC +07:00 Asia Krasnoyarsk",
+          "value": "asia_slash_krasnoyarsk"
+        },
+        {
+          "label": "UTC +07:00 Asia Novokuznetsk",
+          "value": "asia_slash_novokuznetsk"
+        },
+        {
+          "label": "UTC +07:00 Asia Novosibirsk",
+          "value": "asia_slash_novosibirsk"
+        },
+        {
+          "label": "UTC +07:00 Asia Phnom Penh",
+          "value": "asia_slash_phnom_penh"
+        },
+        {
+          "label": "UTC +07:00 Asia Pontianak",
+          "value": "asia_slash_pontianak"
+        },
+        {
+          "label": "UTC +07:00 Asia Saigon",
+          "value": "asia_slash_saigon"
+        },
+        {
+          "label": "UTC +07:00 Asia Tomsk",
+          "value": "asia_slash_tomsk"
+        },
+        {
+          "label": "UTC +07:00 Asia Vientiane",
+          "value": "asia_slash_vientiane"
+        },
+        {
+          "label": "UTC +07:00 Indian Christmas",
+          "value": "indian_slash_christmas"
+        },
+        {
+          "label": "UTC +08:00 Antarctica Casey",
+          "value": "antarctica_slash_casey"
+        },
+        {
+          "label": "UTC +08:00 Asia Brunei",
+          "value": "asia_slash_brunei"
+        },
+        {
+          "label": "UTC +08:00 Asia Choibalsan",
+          "value": "asia_slash_choibalsan"
+        },
+        {
+          "label": "UTC +08:00 Asia Chongqing",
+          "value": "asia_slash_chongqing"
+        },
+        {
+          "label": "UTC +08:00 Asia Chungking",
+          "value": "asia_slash_chungking"
+        },
+        {
+          "label": "UTC +08:00 Asia Harbin",
+          "value": "asia_slash_harbin"
+        },
+        {
+          "label": "UTC +08:00 Asia Hong Kong",
+          "value": "asia_slash_hong_kong"
+        },
+        {
+          "label": "UTC +08:00 Asia Irkutsk",
+          "value": "asia_slash_irkutsk"
+        },
+        {
+          "label": "UTC +08:00 Asia Kuala Lumpur",
+          "value": "asia_slash_kuala_lumpur"
+        },
+        {
+          "label": "UTC +08:00 Asia Kuching",
+          "value": "asia_slash_kuching"
+        },
+        {
+          "label": "UTC +08:00 Asia Macao",
+          "value": "asia_slash_macao"
+        },
+        {
+          "label": "UTC +08:00 Asia Macau",
+          "value": "asia_slash_macau"
+        },
+        {
+          "label": "UTC +08:00 Asia Makassar",
+          "value": "asia_slash_makassar"
+        },
+        {
+          "label": "UTC +08:00 Asia Manila",
+          "value": "asia_slash_manila"
+        },
+        {
+          "label": "UTC +08:00 Asia Shanghai",
+          "value": "asia_slash_shanghai"
+        },
+        {
+          "label": "UTC +08:00 Asia Singapore",
+          "value": "asia_slash_singapore"
+        },
+        {
+          "label": "UTC +08:00 Asia Taipei",
+          "value": "asia_slash_taipei"
+        },
+        {
+          "label": "UTC +08:00 Asia Ujung Pandang",
+          "value": "asia_slash_ujung_pandang"
+        },
+        {
+          "label": "UTC +08:00 Asia Ulaanbaatar",
+          "value": "asia_slash_ulaanbaatar"
+        },
+        {
+          "label": "UTC +08:00 Asia Ulan Bator",
+          "value": "asia_slash_ulan_bator"
+        },
+        {
+          "label": "UTC +08:00 Australia Perth",
+          "value": "australia_slash_perth"
+        },
+        {
+          "label": "UTC +08:00 Australia West",
+          "value": "australia_slash_west"
+        },
+        {
+          "label": "UTC +08:45 Australia Eucla",
+          "value": "australia_slash_eucla"
+        },
+        {
+          "label": "UTC +09:00 Asia Chita",
+          "value": "asia_slash_chita"
+        },
+        {
+          "label": "UTC +09:00 Asia Dili",
+          "value": "asia_slash_dili"
+        },
+        {
+          "label": "UTC +09:00 Asia Japan",
+          "value": "japan"
+        },
+        {
+          "label": "UTC +09:00 Asia Jayapura",
+          "value": "asia_slash_jayapura"
+        },
+        {
+          "label": "UTC +09:00 Asia Khandyga",
+          "value": "asia_slash_khandyga"
+        },
+        {
+          "label": "UTC +09:00 Asia Pyongyang",
+          "value": "asia_slash_pyongyang"
+        },
+        {
+          "label": "UTC +09:00 Asia Seoul",
+          "value": "asia_slash_seoul"
+        },
+        {
+          "label": "UTC +09:00 Asia Tokyo",
+          "value": "asia_slash_tokyo"
+        },
+        {
+          "label": "UTC +09:00 Asia Yakutsk",
+          "value": "asia_slash_yakutsk"
+        },
+        {
+          "label": "UTC +09:00 Pacific Palau",
+          "value": "pacific_slash_palau"
+        },
+        {
+          "label": "UTC +09:30 Australia Adelaide",
+          "value": "australia_slash_adelaide"
+        },
+        {
+          "label": "UTC +09:30 Australia Broken Hill",
+          "value": "australia_slash_broken_hill"
+        },
+        {
+          "label": "UTC +09:30 Australia Darwin",
+          "value": "australia_slash_darwin"
+        },
+        {
+          "label": "UTC +09:30 Australia North",
+          "value": "australia_slash_north"
+        },
+        {
+          "label": "UTC +09:30 Australia South",
+          "value": "australia_slash_south"
+        },
+        {
+          "label": "UTC +09:30 Australia Yancowinna",
+          "value": "australia_slash_yancowinna"
+        },
+        {
+          "label": "UTC +10:00 Antarctica DumontDUrville",
+          "value": "antarctica_slash_dumontdurville"
+        },
+        {
+          "label": "UTC +10:00 Asia Ust-Nera",
+          "value": "asia_slash_ust_hyphen_nera"
+        },
+        {
+          "label": "UTC +10:00 Asia Vladivostok",
+          "value": "asia_slash_vladivostok"
+        },
+        {
+          "label": "UTC +10:00 Australia ACT",
+          "value": "australia_slash_act"
+        },
+        {
+          "label": "UTC +10:00 Australia Brisbane",
+          "value": "australia_slash_brisbane"
+        },
+        {
+          "label": "UTC +10:00 Australia Canberra",
+          "value": "australia_slash_canberra"
+        },
+        {
+          "label": "UTC +10:00 Australia Currie",
+          "value": "australia_slash_currie"
+        },
+        {
+          "label": "UTC +10:00 Australia Hobart",
+          "value": "australia_slash_hobart"
+        },
+        {
+          "label": "UTC +10:00 Australia Lindeman",
+          "value": "australia_slash_lindeman"
+        },
+        {
+          "label": "UTC +10:00 Australia Melbourne",
+          "value": "australia_slash_melbourne"
+        },
+        {
+          "label": "UTC +10:00 Australia NSW",
+          "value": "australia_slash_nsw"
+        },
+        {
+          "label": "UTC +10:00 Australia Queensland",
+          "value": "australia_slash_queensland"
+        },
+        {
+          "label": "UTC +10:00 Australia Sydney",
+          "value": "australia_slash_sydney"
+        },
+        {
+          "label": "UTC +10:00 Australia Tasmania",
+          "value": "australia_slash_tasmania"
+        },
+        {
+          "label": "UTC +10:00 Australia Victoria",
+          "value": "australia_slash_victoria"
+        },
+        {
+          "label": "UTC +10:00 Pacific Chuuk",
+          "value": "pacific_slash_chuuk"
+        },
+        {
+          "label": "UTC +10:00 Pacific Guam",
+          "value": "pacific_slash_guam"
+        },
+        {
+          "label": "UTC +10:00 Pacific Port Moresby",
+          "value": "pacific_slash_port_moresby"
+        },
+        {
+          "label": "UTC +10:00 Pacific Saipan",
+          "value": "pacific_slash_saipan"
+        },
+        {
+          "label": "UTC +10:00 Pacific Truk",
+          "value": "pacific_slash_truk"
+        },
+        {
+          "label": "UTC +10:00 Pacific Yap",
+          "value": "pacific_slash_yap"
+        },
+        {
+          "label": "UTC +10:30 Australia LHI",
+          "value": "australia_slash_lhi"
+        },
+        {
+          "label": "UTC +10:30 Australia Lord Howe",
+          "value": "australia_slash_lord_howe"
+        },
+        {
+          "label": "UTC +11:00 Antarctica Macquarie",
+          "value": "antarctica_slash_macquarie"
+        },
+        {
+          "label": "UTC +11:00 Asia Magadan",
+          "value": "asia_slash_magadan"
+        },
+        {
+          "label": "UTC +11:00 Asia Sakhalin",
+          "value": "asia_slash_sakhalin"
+        },
+        {
+          "label": "UTC +11:00 Asia Srednekolymsk",
+          "value": "asia_slash_srednekolymsk"
+        },
+        {
+          "label": "UTC +11:00 Pacific Bougainville",
+          "value": "pacific_slash_bougainville"
+        },
+        {
+          "label": "UTC +11:00 Pacific Efate",
+          "value": "pacific_slash_efate"
+        },
+        {
+          "label": "UTC +11:00 Pacific Guadalcanal",
+          "value": "pacific_slash_guadalcanal"
+        },
+        {
+          "label": "UTC +11:00 Pacific Kosrae",
+          "value": "pacific_slash_kosrae"
+        },
+        {
+          "label": "UTC +11:00 Pacific Norfolk",
+          "value": "pacific_slash_norfolk"
+        },
+        {
+          "label": "UTC +11:00 Pacific Noumea",
+          "value": "pacific_slash_noumea"
+        },
+        {
+          "label": "UTC +11:00 Pacific Pohnpei",
+          "value": "pacific_slash_pohnpei"
+        },
+        {
+          "label": "UTC +11:00 Pacific Ponape",
+          "value": "pacific_slash_ponape"
+        },
+        {
+          "label": "UTC +12:00 Antarctica McMurdo",
+          "value": "antarctica_slash_mcmurdo"
+        },
+        {
+          "label": "UTC +12:00 Antarctica South Pole",
+          "value": "antarctica_slash_south_pole"
+        },
+        {
+          "label": "UTC +12:00 Asia Anadyr",
+          "value": "asia_slash_anadyr"
+        },
+        {
+          "label": "UTC +12:00 Asia Kamchatka",
+          "value": "asia_slash_kamchatka"
+        },
+        {
+          "label": "UTC +12:00 Pacific Auckland",
+          "value": "pacific_slash_auckland"
+        },
+        {
+          "label": "UTC +12:00 Pacific Fiji",
+          "value": "pacific_slash_fiji"
+        },
+        {
+          "label": "UTC +12:00 Pacific Funafuti",
+          "value": "pacific_slash_funafuti"
+        },
+        {
+          "label": "UTC +12:00 Pacific Kwajalein",
+          "value": "kwajalein"
+        },
+        {
+          "label": "UTC +12:00 Pacific Majuro",
+          "value": "pacific_slash_majuro"
+        },
+        {
+          "label": "UTC +12:00 Pacific Nauru",
+          "value": "pacific_slash_nauru"
+        },
+        {
+          "label": "UTC +12:00 Pacific Tarawa",
+          "value": "pacific_slash_tarawa"
+        },
+        {
+          "label": "UTC +12:00 Pacific Wake",
+          "value": "pacific_slash_wake"
+        },
+        {
+          "label": "UTC +12:00 Pacific Wallis",
+          "value": "pacific_slash_wallis"
+        },
+        {
+          "label": "UTC +12:45 Pacific Chatham",
+          "value": "pacific_slash_chatham"
+        },
+        {
+          "label": "UTC +13:00 Pacific Apia",
+          "value": "pacific_slash_apia"
+        },
+        {
+          "label": "UTC +13:00 Pacific Enderbury",
+          "value": "pacific_slash_enderbury"
+        },
+        {
+          "label": "UTC +13:00 Pacific Fakaofo",
+          "value": "pacific_slash_fakaofo"
+        },
+        {
+          "label": "UTC +13:00 Pacific Tongatapu",
+          "value": "pacific_slash_tongatapu"
+        },
+        {
+          "label": "UTC +14:00 Pacific Kiritimati",
+          "value": "pacific_slash_kiritimati"
+        }
+      ]
+    },
+    {
+      "name": "hs_user_ids_of_all_notification_followers",
+      "label": "User IDs of all notification followers",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_user_ids_of_all_notification_unfollowers",
+      "label": "User IDs of all notification unfollowers",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hs_user_ids_of_all_owners",
+      "label": "User IDs of all owners",
+      "fieldType": "checkbox",
+      "options": []
+    },
+    {
+      "name": "hubspot_owner_id",
+      "label": "Contact owner",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "hubspot_team_id",
+      "label": "HubSpot Team",
+      "fieldType": "select",
+      "options": []
+    },
+    {
+      "name": "is_backfill",
+      "label": "is_backfill",
+      "fieldType": "checkbox",
+      "options": [
+        {
+          "label": "true",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "last_aircall_call_outcome",
+      "label": "Last Aircall call outcome",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Connected",
+          "value": "f240bbac-87c9-4f6e-bf70-924b57d47db7"
+        },
+        {
+          "label": "Busy",
+          "value": "9d9162e7-6cf3-4944-bf63-4dff82258764"
+        },
+        {
+          "label": "No answer",
+          "value": "73a0d17f-1163-4015-bdd5-ec830791da20"
+        },
+        {
+          "label": "Wrong number",
+          "value": "17b47fee-58de-441e-a44c-c6300d46f273"
+        },
+        {
+          "label": "Left voicemail",
+          "value": "b2cf5968-551e-4856-9783-52b3da59a7d0"
+        }
+      ]
+    },
+    {
+      "name": "last_lead_status",
+      "label": "last_lead_status",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "nuevo",
+          "value": "nuevo"
+        },
+        {
+          "label": "asignado",
+          "value": "asignado"
+        },
+        {
+          "label": "whatsapp enviado",
+          "value": "whatsapp enviado"
+        },
+        {
+          "label": "llamada agendada",
+          "value": "llamada agendada"
+        },
+        {
+          "label": "conectado por whatsapp",
+          "value": "conectado por whatsapp"
+        },
+        {
+          "label": "conectado llamada",
+          "value": "conectado llamada"
+        },
+        {
+          "label": "no interesado",
+          "value": "no interesado"
+        },
+        {
+          "label": "no contesta llamada",
+          "value": "no contesta llamada"
+        },
+        {
+          "label": "no contesta whatsapp",
+          "value": "no contesta whatsapp"
+        }
+      ]
+    },
+    {
+      "name": "lifecyclestage",
+      "label": "Lifecycle Stage",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "lead",
+          "value": "lead"
+        },
+        {
+          "label": "Creación de negocio",
+          "value": "1275446570"
+        },
+        {
+          "label": "Cliente",
+          "value": "1189561739"
+        }
+      ]
+    },
+    {
+      "name": "metodo_de_pago",
+      "label": "metodo de pago",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "tarjeta de crédito",
+          "value": "credit"
+        },
+        {
+          "label": "tarjeta de débito",
+          "value": "debit"
+        },
+        {
+          "label": "transferencia bancaria",
+          "value": "bank transfer"
+        },
+        {
+          "label": "efectivo",
+          "value": "cash"
+        }
+      ]
+    },
+    {
+      "name": "numemployees",
+      "label": "Number of Employees",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "1-5",
+          "value": "1-5"
+        },
+        {
+          "label": "5-25",
+          "value": "5-25"
+        },
+        {
+          "label": "25-50",
+          "value": "25-50"
+        },
+        {
+          "label": "50-100",
+          "value": "50-100"
+        },
+        {
+          "label": "100-500",
+          "value": "100-500"
+        },
+        {
+          "label": "500-1000",
+          "value": "500-1000"
+        },
+        {
+          "label": "1000+",
+          "value": "1000+"
+        }
+      ]
+    },
+    {
+      "name": "oportunidad_de_venta",
+      "label": "Oportunidad de Venta",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Sí",
+          "value": "Sí"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "name": "para_quien_es_la_membresia__form",
+      "label": "¿Para quién es la membresía?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Para mí",
+          "value": "myself"
+        },
+        {
+          "label": "Para un familiar",
+          "value": "family"
+        },
+        {
+          "label": "Para un grupo",
+          "value": "Group of people"
+        },
+        {
+          "label": "Para pareja",
+          "value": "couple"
+        }
+      ]
+    },
+    {
+      "name": "payment_plan__form",
+      "label": "¿Cómo pagarías el presupuesto?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Puedo pagarlo anualmente",
+          "value": "yearly"
+        },
+        {
+          "label": "Prefiero pagos mensuales, trimestrales o semestrales",
+          "value": "monthly"
+        },
+        {
+          "label": "Necesito evaluar si puedo pagarlo",
+          "value": "i need to evaluate"
+        },
+        {
+          "label": "Está fuera de mi presupuesto",
+          "value": "out of budget"
+        },
+        {
+          "label": "Puedo pagar mensual",
+          "value": "just monthly"
+        },
+        {
+          "label": "Puedo pagar trimestral o semestral",
+          "value": "quarterly or semi-annual"
+        }
+      ]
+    },
+    {
+      "name": "por_donde_fue_captado_el_lead_",
+      "label": "¿Por donde fue captado el lead?",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Casa Koltin",
+          "value": "Casa Koltin"
+        },
+        {
+          "label": "Oficina MTY",
+          "value": "Oficina MTY"
+        },
+        {
+          "label": "Oficina GDL",
+          "value": "Oficina GDL"
+        },
+        {
+          "label": "Llamada entrante",
+          "value": "Llamada entrante"
+        },
+        {
+          "label": "Recomendación",
+          "value": "Recomendación"
+        },
+        {
+          "label": "Nos vio en la tv",
+          "value": "Nos vio en la tv"
+        }
+      ]
+    },
+    {
+      "name": "preferred_coverage_start__form",
+      "label": "¿A partir de cuándo te gustaría estar protegido(a) con Koltin?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Lo necesito ahora",
+          "value": "now"
+        },
+        {
+          "label": "Dentro de unos meses",
+          "value": "in a few months"
+        },
+        {
+          "label": "Aún no lo decido",
+          "value": "undecided"
+        },
+        {
+          "label": "1 - 2 meses",
+          "value": "1 - 2 months"
+        },
+        {
+          "label": "3 - 6 meses",
+          "value": "3 - 6 months"
+        },
+        {
+          "label": "Este mes",
+          "value": "this month"
+        }
+      ]
+    },
+    {
+      "name": "previous_illnesses__form",
+      "label": "¿Tienes o has tenido algún padecimiento o enfermedad?",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Si",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "name": "prioridad_lead_scoring",
+      "label": "Prioridad (lead scoring)",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Alta",
+          "value": "Alta"
+        },
+        {
+          "label": "Media",
+          "value": "Media"
+        },
+        {
+          "label": "Baja",
+          "value": "Baja"
+        }
+      ]
+    },
+    {
+      "name": "promesa_de_pago",
+      "label": "promesa de pago",
+      "fieldType": "booleancheckbox",
+      "options": [
+        {
+          "label": "Sí",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "region",
+      "label": "Región",
+      "fieldType": "checkbox",
+      "options": [
+        {
+          "label": "GDL",
+          "value": "GDL"
+        },
+        {
+          "label": "MTY",
+          "value": "MTY"
+        },
+        {
+          "label": "Otros",
+          "value": "Otros"
+        },
+        {
+          "label": "CDMX",
+          "value": "CDMX"
+        },
+        {
+          "label": "EDO",
+          "value": "EDO"
+        },
+        {
+          "label": "QRO",
+          "value": "QRO"
+        },
+        {
+          "label": "PUE",
+          "value": "PUE"
+        },
+        {
+          "label": "MOR",
+          "value": "MOR"
+        },
+        {
+          "label": "GUA",
+          "value": "GUA"
+        },
+        {
+          "label": "VER",
+          "value": "VER"
+        },
+        {
+          "label": "Q.ROO",
+          "value": "Q.ROO"
+        },
+        {
+          "label": "YUC",
+          "value": "YUC"
+        }
+      ]
+    },
+    {
+      "name": "status_old",
+      "label": "Estado Manual",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Intento de contacto",
+          "value": "intento_de_contacto"
+        },
+        {
+          "label": "Conectado",
+          "value": "conectado"
+        },
+        {
+          "label": "Perdido -mas de 3 intentos de contacto",
+          "value": "perdido"
+        },
+        {
+          "label": "Interesado",
+          "value": "interesado"
+        },
+        {
+          "label": "Cliente",
+          "value": "cliente"
+        },
+        {
+          "label": "Negocio abierto",
+          "value": "negocio_abierto"
+        },
+        {
+          "label": "Nuevo",
+          "value": "nuevo"
+        },
+        {
+          "label": "Buscar en el futuro",
+          "value": "Buscar en el futuro"
+        },
+        {
+          "label": "No aceptado-informe medico",
+          "value": "No aceptado-informe medico"
+        }
+      ]
+    },
+    {
+      "name": "tipo_de_contacto",
+      "label": "Tipo de Contacto",
+      "fieldType": "select",
+      "options": [
+        {
+          "label": "Inbound",
+          "value": "Inbound"
+        },
+        {
+          "label": "Outbound",
+          "value": "Outbound"
+        }
+      ]
+    },
+    {
+      "name": "utm_rmk",
+      "label": "utm_rmk",
+      "fieldType": "radio",
+      "options": [
+        {
+          "label": "Activa",
+          "value": "Activa"
+        }
+      ]
+    }
+  ]
+}
