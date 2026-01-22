@@ -15,10 +15,12 @@ Crea un archivo `.env.local` con:
 HUBSPOT_ACCESS_TOKEN=...
 SUPABASE_URL=...
 SUPABASE_SERVICE_ROLE_KEY=...
-ALLOWED_ORIGINS=https://koltin.mx,https://www.koltin.mx
+ALLOWED_ORIGINS=https://v0-build-koltin-form.vercel.app,https://v0-build-koltin-form-nab6nq577-shemantyk.vercel.app,http://localhost:3000
 ```
 
-`ALLOWED_ORIGINS` es opcional. Si no se define, no se aplican restricciones CORS en el servidor (documentado por seguridad).
+`ALLOWED_ORIGINS` es opcional. Si no se define, no se aplican restricciones CORS en el servidor (documentado por seguridad). En Vercel, asegúrate de incluir los dominios del front (preview y production).
+
+Si agregas `NEXT_PUBLIC_FORMS_API_BASE_URL` en el front, haz redeploy (o un push a main) para que el build tome la nueva variable.
 
 ## Ejecutar en local
 
@@ -37,16 +39,14 @@ El payload de ejemplo está en `src/examples/quote_payload.json`.
 
 Estos valores deben coincidir con las opciones configuradas en HubSpot:
 
-- `paraQuien`: `solo_titular` | `titular_y_pareja` | `grupo`
-- `paymentPlan`: `monthly` | `annual`
-- `hasInsurance`: `yes` | `no`
-- `paymentMethod`: `card` | `transfer` | `cash` | `other`
-- `benefitInterest`: `consultas` | `medicamentos` | `hospitalizacion` | `otro`
-- `coverageStart`: `inmediato` | `1_3_meses` | `3_6_meses` | `mas_6_meses`
-- `discoverySource`: `facebook` | `google` | `referido` | `otro`
+- `paraQuien`: `myself` | `family` | `Group of people` | `couple`
+- `paymentPlan`: `yearly` | `monthly` | `i need to evaluate` | `out of budget` | `just monthly` | `quarterly or semi-annual`
+- `hasInsurance`: `Yes` | `No`
+- `paymentMethod`: `credit` | `debit` | `bank transfer` | `cash`
+- `benefitInterest`: `insurance` | `preventive health` | `community`
+- `coverageStart`: `now` | `this month` | `1 - 2 months` | `3 - 6 months` | `in a few months` | `undecided`
 
-Si los valores reales en HubSpot son diferentes, actualiza los enums en
-`src/app/api/quote/route.ts`.
+Los enums se validan contra `schemas/hs_contact_enums.json`.
 
 ### Ejemplo con curl
 
