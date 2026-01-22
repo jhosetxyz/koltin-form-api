@@ -181,16 +181,22 @@ function collectInvalidEnum(
 }
 
 function getCorsHeaders(origin: string | null): Record<string, string> {
-  if (!origin || env.ALLOWED_ORIGINS.length === 0) {
+  const allowAnyOrigin = env.ALLOWED_ORIGINS.length === 0;
+  const originAllowed = origin ? env.ALLOWED_ORIGINS.includes(origin) : false;
+
+  if (!allowAnyOrigin && !originAllowed) {
     return {};
   }
-  if (!env.ALLOWED_ORIGINS.includes(origin)) {
-    return {};
-  }
+
+  const allowOrigin = origin ?? "*";
+
   return {
-    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Origin": allowAnyOrigin ? allowOrigin : origin!,
     "Access-Control-Allow-Methods": "POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, Authorization",
+    "Access-Control-Allow-Headers":
+      "Content-Type, Authorization, X-Request-Id, Idempotency-Key",
+    "Access-Control-Max-Age": "86400",
+    ...(origin ? { Vary: "Origin" } : {}),
   };
 }
 
@@ -276,6 +282,9 @@ async function updateSubmission(
 export async function OPTIONS(request: Request) {
   const origin = request.headers.get("origin");
   const headers = getCorsHeaders(origin);
+  if (env.ALLOWED_ORIGINS.length > 0 && origin && !headers["Access-Control-Allow-Origin"]) {
+    return new NextResponse(null, { status: 403 });
+  }
   return new NextResponse(null, { status: 204, headers });
 }
 

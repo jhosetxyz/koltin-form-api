@@ -18,7 +18,7 @@ SUPABASE_SERVICE_ROLE_KEY=...
 ALLOWED_ORIGINS=https://v0-build-koltin-form.vercel.app,https://v0-build-koltin-form-nab6nq577-shemantyk.vercel.app,http://localhost:3000
 ```
 
-`ALLOWED_ORIGINS` es opcional. Si no se define, no se aplican restricciones CORS en el servidor (documentado por seguridad). En Vercel, asegúrate de incluir los dominios del front (preview y production).
+`ALLOWED_ORIGINS` es opcional. Si no se define, el API permite cualquier origen y refleja el `Origin` (o `*` si no hay origin). En Vercel, asegúrate de incluir los dominios del front (preview y production).
 
 Si agregas `NEXT_PUBLIC_FORMS_API_BASE_URL` en el front, haz redeploy (o un push a main) para que el build tome la nueva variable.
 
